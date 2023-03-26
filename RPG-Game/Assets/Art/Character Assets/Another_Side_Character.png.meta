@@ -1,0 +1,1070 @@
+fileFormatVersion: 2
+guid: 8dab999f80629444b8bd1affef43dec4
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Another_Side_Character_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 769
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99b9660c572b4f40bb5e0ee6a7c858b
+      internalID: -1825803507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_62
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 770
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb691c4ef466f534a9b72ce416154e86
+      internalID: -1229200584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 769
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27921f6aa1782a4bbf12f377f20ec35
+      internalID: -274252859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_64
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 768
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24deabc46cfcf224b84ed502a00962e0
+      internalID: -1467907919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_65
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 769
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52bb62d9ad7e27a4b9397ce31ec106b0
+      internalID: 1710705397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_66
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 770
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2b9fb8dda7d8164bb990ebfdbedae71
+      internalID: 1535420837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_67
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 769
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9efc738ee892d499e48649264f1e11
+      internalID: 1239605708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_68
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 768
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a5c5e433920b1b459af1e8cf60272de
+      internalID: -2085272337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_69
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 769
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b3e1478ed300e245b96221b7a6987f0
+      internalID: 912054567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_70
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 705
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc18c67565d224893b1de589f1a41b
+      internalID: 1404533606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_71
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 705
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13845371add7d47b6b7355a3ca5257
+      internalID: 520632358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_72
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 706
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d038937ffdf5dd641a64d7a26a1e4171
+      internalID: -1630395019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_73
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 706
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4db1a2237081e44980f5d41f5d9a8b
+      internalID: -622224676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_74
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 705
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bd9a2f616ae284d8af275714001f19
+      internalID: -1886610581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_75
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61c4cbc5fbaf4b4fb41e62d0bd9476c
+      internalID: -90656716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_76
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 705
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e1f89c5f1d4294db40ce632827af25
+      internalID: 1205957215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_77
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 705
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda1ada363f96564189861484b408ed6
+      internalID: -523823122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_78
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715f4506ea9cd5642ba0edc49dcf1eb7
+      internalID: -1686697842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 641
+        width: 33
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f564b11af74213d4f99bbbb57d0d7895
+      internalID: -315533296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_80
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 641
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bc725f6c1944f4dba80a6b374c0c84
+      internalID: 1200442421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_81
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 641
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c97371a98e1984aacd02af0b0ffeef
+      internalID: 1989605937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_82
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 641
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6a64666bbbb9d4facaab5497276505
+      internalID: 1444284036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_83
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 641
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97519c06f2eea954598e5baa415bf8e1
+      internalID: 839202623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_84
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 641
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba09514764fdd1542b9476c19e3b76de
+      internalID: 1248835410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 641
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d173f7429e36e884dbb46025f7bbfad7
+      internalID: 546910070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_86
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 641
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e855c280be0d9f949b10cef4ff9dab41
+      internalID: 1971425279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_87
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 641
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421461d6665bea4a937f4e07cd4bda2
+      internalID: 868343874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_88
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 578
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f37091945045440b4ff3848248daf1
+      internalID: 1756975310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_89
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 578
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 303f92a08aeeb7b42bc42c73ff640978
+      internalID: -303960254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_90
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 578
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 044071fc8c096b34eab5eb1cc75a2e97
+      internalID: -1843965966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 578
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 666639f42d3530d4092aa314bd07162a
+      internalID: 1874853239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_92
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 578
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721c410e377ee724bbbec8494a5aadd6
+      internalID: -90449517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_93
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 578
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d808a9c837ae6b49b4b0c04572dfff9
+      internalID: 622304734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_94
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 578
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abd3e69325da463449f6d7ca0e8f7287
+      internalID: -524346812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_95
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 578
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fd471bb71783cd4191756f659953037
+      internalID: 1866162892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Another_Side_Character_96
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 578
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f9a9fce9648c4648b9bc27870dfefd7
+      internalID: -907146298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Another_Side_Character_0: 1509267276
+      Another_Side_Character_1: 1676478409
+      Another_Side_Character_10: -344748858
+      Another_Side_Character_100: -1380989826
+      Another_Side_Character_101: -536712871
+      Another_Side_Character_102: 1143283382
+      Another_Side_Character_103: 211148546
+      Another_Side_Character_104: 505462708
+      Another_Side_Character_105: 61487277
+      Another_Side_Character_106: -930249894
+      Another_Side_Character_107: -1266787675
+      Another_Side_Character_108: 892302356
+      Another_Side_Character_109: -30622204
+      Another_Side_Character_11: 2016514300
+      Another_Side_Character_110: 422751376
+      Another_Side_Character_111: 599881339
+      Another_Side_Character_112: 1408308282
+      Another_Side_Character_113: -352530882
+      Another_Side_Character_114: 621792512
+      Another_Side_Character_115: 1926553550
+      Another_Side_Character_116: -1366062343
+      Another_Side_Character_117: 98969767
+      Another_Side_Character_118: -794506545
+      Another_Side_Character_119: 206692067
+      Another_Side_Character_12: 1807309285
+      Another_Side_Character_120: -253062246
+      Another_Side_Character_121: 1271337983
+      Another_Side_Character_122: 278371249
+      Another_Side_Character_123: 53769067
+      Another_Side_Character_124: 1034022367
+      Another_Side_Character_125: 200402550
+      Another_Side_Character_126: 1443637555
+      Another_Side_Character_127: -1619215821
+      Another_Side_Character_128: -1730734638
+      Another_Side_Character_129: -1989515300
+      Another_Side_Character_13: -1131424264
+      Another_Side_Character_130: 332302
+      Another_Side_Character_131: -1601455514
+      Another_Side_Character_132: 1757315515
+      Another_Side_Character_133: -1305618061
+      Another_Side_Character_134: -1134486443
+      Another_Side_Character_135: -28951064
+      Another_Side_Character_136: 1084469481
+      Another_Side_Character_137: 490546332
+      Another_Side_Character_138: -503440622
+      Another_Side_Character_139: 391512332
+      Another_Side_Character_14: -165322771
+      Another_Side_Character_140: -921564108
+      Another_Side_Character_141: -583099623
+      Another_Side_Character_142: 956705834
+      Another_Side_Character_143: 1081540129
+      Another_Side_Character_144: -670368250
+      Another_Side_Character_145: -1827009136
+      Another_Side_Character_146: -279642358
+      Another_Side_Character_147: 785093936
+      Another_Side_Character_148: 271845058
+      Another_Side_Character_149: -293538737
+      Another_Side_Character_15: 1243417986
+      Another_Side_Character_150: 405205950
+      Another_Side_Character_151: -515963291
+      Another_Side_Character_152: 1622782093
+      Another_Side_Character_153: 1639904330
+      Another_Side_Character_154: 705006369
+      Another_Side_Character_155: -1720380451
+      Another_Side_Character_156: 1909958278
+      Another_Side_Character_157: 462774513
+      Another_Side_Character_158: 910836081
+      Another_Side_Character_159: -1898357020
+      Another_Side_Character_16: -767348555
+      Another_Side_Character_160: -620642177
+      Another_Side_Character_161: -1064299931
+      Another_Side_Character_162: 368132289
+      Another_Side_Character_163: -769523344
+      Another_Side_Character_164: 564172623
+      Another_Side_Character_165: -1594557905
+      Another_Side_Character_166: 796113989
+      Another_Side_Character_167: -1884385367
+      Another_Side_Character_168: -166574403
+      Another_Side_Character_169: -1556440123
+      Another_Side_Character_17: 78214613
+      Another_Side_Character_170: -1201546606
+      Another_Side_Character_171: -1873854212
+      Another_Side_Character_172: -522070662
+      Another_Side_Character_173: -1625324335
+      Another_Side_Character_174: -1507914127
+      Another_Side_Character_175: -636242453
+      Another_Side_Character_176: 918589290
+      Another_Side_Character_177: 534935218
+      Another_Side_Character_178: 1995962097
+      Another_Side_Character_18: 944952129
+      Another_Side_Character_19: -576668621
+      Another_Side_Character_2: -1387764560
+      Another_Side_Character_20: 976085585
+      Another_Side_Character_21: 1560681275
+      Another_Side_Character_22: 506741528
+      Another_Side_Character_23: 1041635497
+      Another_Side_Character_24: -464373641
+      Another_Side_Character_25: -1955322825
+      Another_Side_Character_26: -1113812557
+      Another_Side_Character_27: 862816661
+      Another_Side_Character_28: 1258989623
+      Another_Side_Character_29: -450665884
+      Another_Side_Character_3: 627143211
+      Another_Side_Character_30: -1134648344
+      Another_Side_Character_31: -2046834059
+      Another_Side_Character_32: 1667261936
+      Another_Side_Character_33: 1053311385
+      Another_Side_Character_34: -1610591976
+      Another_Side_Character_35: 796313561
+      Another_Side_Character_36: 2141511800
+      Another_Side_Character_37: 124382345
+      Another_Side_Character_38: -198977610
+      Another_Side_Character_39: 1347674576
+      Another_Side_Character_4: 2073652157
+      Another_Side_Character_40: -1206559129
+      Another_Side_Character_41: 117556419
+      Another_Side_Character_42: -453397009
+      Another_Side_Character_43: -1406477098
+      Another_Side_Character_44: -63749035
+      Another_Side_Character_45: -1125715637
+      Another_Side_Character_46: -1237974898
+      Another_Side_Character_47: 1736845813
+      Another_Side_Character_48: -301119686
+      Another_Side_Character_49: -607879238
+      Another_Side_Character_5: -357769910
+      Another_Side_Character_50: -1438025833
+      Another_Side_Character_51: -1370448531
+      Another_Side_Character_52: 1118464178
+      Another_Side_Character_53: -1166337285
+      Another_Side_Character_54: -1505902897
+      Another_Side_Character_55: 890022741
+      Another_Side_Character_56: 1419609657
+      Another_Side_Character_57: 1316489230
+      Another_Side_Character_58: 788426193
+      Another_Side_Character_59: 406467797
+      Another_Side_Character_6: -941807162
+      Another_Side_Character_60: -919500693
+      Another_Side_Character_61: -1825803507
+      Another_Side_Character_62: -1229200584
+      Another_Side_Character_63: -274252859
+      Another_Side_Character_64: -1467907919
+      Another_Side_Character_65: 1710705397
+      Another_Side_Character_66: 1535420837
+      Another_Side_Character_67: 1239605708
+      Another_Side_Character_68: -2085272337
+      Another_Side_Character_69: 912054567
+      Another_Side_Character_7: -568080633
+      Another_Side_Character_70: 1404533606
+      Another_Side_Character_71: 520632358
+      Another_Side_Character_72: -1630395019
+      Another_Side_Character_73: -622224676
+      Another_Side_Character_74: -1886610581
+      Another_Side_Character_75: -90656716
+      Another_Side_Character_76: 1205957215
+      Another_Side_Character_77: -523823122
+      Another_Side_Character_78: -1686697842
+      Another_Side_Character_79: -315533296
+      Another_Side_Character_8: -23743814
+      Another_Side_Character_80: 1200442421
+      Another_Side_Character_81: 1989605937
+      Another_Side_Character_82: 1444284036
+      Another_Side_Character_83: 839202623
+      Another_Side_Character_84: 1248835410
+      Another_Side_Character_85: 546910070
+      Another_Side_Character_86: 1971425279
+      Another_Side_Character_87: 868343874
+      Another_Side_Character_88: 1756975310
+      Another_Side_Character_89: -303960254
+      Another_Side_Character_9: 629694593
+      Another_Side_Character_90: -1843965966
+      Another_Side_Character_91: 1874853239
+      Another_Side_Character_92: -90449517
+      Another_Side_Character_93: 622304734
+      Another_Side_Character_94: -524346812
+      Another_Side_Character_95: 1866162892
+      Another_Side_Character_96: -907146298
+      Another_Side_Character_97: -542781207
+      Another_Side_Character_98: 776518532
+      Another_Side_Character_99: 1577018709
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

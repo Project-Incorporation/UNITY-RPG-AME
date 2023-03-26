@@ -1,0 +1,1113 @@
+fileFormatVersion: 2
+guid: bf067e85825f0e9449181b43c91376ad
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: postac_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 1309
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02eeec919fea4f4a9b38c494029129e
+      internalID: -1363851799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 1285
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0180ccabba54e03419f36ca518509570
+      internalID: -868793641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_62
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 770
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb75ee05bd4fab34c9e498f2016c1916
+      internalID: 1377886481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_63
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 769
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d818acb79f7cc4aaa342c9ec1b0fda
+      internalID: 1955243715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_64
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 768
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95f25a5a3e6747429d9365c4cb5e266
+      internalID: 150371352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_65
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95be2d6b1498144391b5d28ac07e2ce
+      internalID: -836405390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_66
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 768
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f22f05cf28b2aa47a6fe2f212f877a2
+      internalID: 917369800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_67
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 769
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdfcb22c359ed146810cfd7bc006773
+      internalID: -455075754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_68
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 768
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a0af1a4d810af479b6c7b42e9f3c90
+      internalID: -622861379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_69
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 768
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab2900162c3a754aaed62f57d7845c5
+      internalID: -1133749799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_70
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 769
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cddf1f5cbb7012a43a4aa7e7edff78fa
+      internalID: 1225461302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_71
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 704
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506aeb899ac9acd4db819ea7ca221fc6
+      internalID: -350178467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_72
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 704
+        width: 26
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e0316ee5eff2f4091bff0a38881b3f
+      internalID: 351041227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_73
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 706
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35c53ec691bd24782cc215a09ca9d7
+      internalID: -42104945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 705
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc370897fa23be840ae75ce457106268
+      internalID: -711998155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_75
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 705
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259761fb6dcc0f1478a2c94d679b14e4
+      internalID: -1073270471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_76
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 704
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad33eb6af2e1637449b66b8998435c74
+      internalID: 586848928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_77
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 705
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b788dbae710b14ebafc217d04653f0
+      internalID: -2101200153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_78
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 704
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ba4e5471df91c4da681cba432da108
+      internalID: 609754081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_79
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 704
+        width: 25
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b08a7f62eb251d4fafde409044093fe
+      internalID: 1786308673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_80
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 641
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00944d5edfd9b148bb5067a226a9a5f
+      internalID: -1721920424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_81
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 641
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2fc8d637a91b7341b843f0e43af2170
+      internalID: 576989877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_82
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 639
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fecd2f1b54193f845b0e2dcbaf9208f1
+      internalID: -1847104219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_83
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 639
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804f2b3e120864340b154166d51ba677
+      internalID: -1083420900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_84
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 639
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6f9ef4b92046b45a2849008ba02fbb
+      internalID: 167399960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_85
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 641
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f59c164cee9b7df45bbd1f6f6d16f9d2
+      internalID: 256446058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_86
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 639
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c6d0be26d624e449ba121287f18956
+      internalID: 2141747213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_87
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 639
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083fd2cb5843ce447a88946d23ebad12
+      internalID: -1423074276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_88
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 639
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf50ba030a1949949a93df80c4a43d89
+      internalID: -79651906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_89
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 576
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d715502ec40b72c4e89aa1acba370021
+      internalID: 1712998712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_90
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 576
+        width: 27
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0483537f2394dd542a9b81f52063f475
+      internalID: -1605484982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_91
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 578
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3177e22806096d7408059419bc5f28fc
+      internalID: 2003207268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_92
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 578
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1624bbf4ea562429e6432406d23884
+      internalID: -344676880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_93
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 578
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb01275db22a3404e9419a69eee36b7c
+      internalID: 19392933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_94
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 576
+        width: 30
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636a0fa21cdc31e41948c71780c2ada7
+      internalID: 1090848754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_95
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 578
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4f200c83c65ac348a70c5a65a19fe22
+      internalID: -1192815231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_96
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 576
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099e4f7d483b151468bff233b8b19830
+      internalID: -1010580015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: postac_97
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 576
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b5033fc4565ce42b60d201f5f814b5
+      internalID: 1361330706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      postac_0: -1201545655
+      postac_1: 2145584729
+      postac_10: -1494699637
+      postac_100: 469194419
+      postac_101: -930470819
+      postac_102: -228033075
+      postac_103: 1260133828
+      postac_104: 2122664990
+      postac_105: 1291519835
+      postac_106: 325302869
+      postac_107: -1946495582
+      postac_108: 1326520255
+      postac_109: 2028185896
+      postac_11: -834020261
+      postac_110: 1924366923
+      postac_111: 1610196808
+      postac_112: 1871274076
+      postac_113: -1218826624
+      postac_114: -1027429396
+      postac_115: -1433554609
+      postac_116: -991703728
+      postac_117: -245994124
+      postac_118: -1281654170
+      postac_119: 729999072
+      postac_12: -2104298900
+      postac_120: 1978530887
+      postac_121: 1591346762
+      postac_122: 1743390254
+      postac_123: -484084472
+      postac_124: -474316794
+      postac_125: -895472280
+      postac_126: -908498220
+      postac_127: -2089895442
+      postac_128: 390832788
+      postac_129: 1461157816
+      postac_13: -1942941063
+      postac_130: -254164550
+      postac_131: 253243303
+      postac_132: -1008739675
+      postac_133: -486076514
+      postac_134: 1363930533
+      postac_135: 754663576
+      postac_136: 184848514
+      postac_137: -957496319
+      postac_138: 1207526342
+      postac_139: -1148337747
+      postac_14: -879639851
+      postac_140: -856118195
+      postac_141: -1719557538
+      postac_142: 1491927660
+      postac_143: -793423506
+      postac_144: 2137767719
+      postac_145: -1241027779
+      postac_146: -697660302
+      postac_147: 247632091
+      postac_148: -1059049009
+      postac_149: 1337687351
+      postac_15: 1536118152
+      postac_150: 1932957441
+      postac_151: -187606924
+      postac_152: 2071443487
+      postac_153: 356551880
+      postac_154: 1242723412
+      postac_155: -1973277327
+      postac_156: -372035347
+      postac_157: -793801581
+      postac_158: -98464446
+      postac_159: -1831407576
+      postac_16: -895605614
+      postac_160: -593947709
+      postac_161: 822232250
+      postac_162: -875956256
+      postac_163: -968505277
+      postac_164: -365533890
+      postac_165: -2021605309
+      postac_166: -1343270145
+      postac_167: -2079201180
+      postac_168: 161975970
+      postac_169: -1260952933
+      postac_17: 1074235453
+      postac_170: -1821410937
+      postac_171: 2108859666
+      postac_172: -1241624646
+      postac_173: 1403119003
+      postac_174: -1229270772
+      postac_175: 65460612
+      postac_176: -2118460236
+      postac_177: -1006134350
+      postac_178: 379841583
+      postac_179: 1959526772
+      postac_18: 155210990
+      postac_19: -1315660587
+      postac_2: -323018115
+      postac_20: -1883801736
+      postac_21: -1975986819
+      postac_22: 1650214764
+      postac_23: 560318841
+      postac_24: 1028805498
+      postac_25: -1912337394
+      postac_26: 324821053
+      postac_27: -1429580030
+      postac_28: -1465348202
+      postac_29: 318836444
+      postac_3: -1918319292
+      postac_30: -1646724006
+      postac_31: 320076018
+      postac_32: 1802570896
+      postac_33: -1040425390
+      postac_34: -1359471262
+      postac_35: 305798135
+      postac_36: -782541618
+      postac_37: -2051380450
+      postac_38: 1263939501
+      postac_39: 1353826473
+      postac_4: 2117623111
+      postac_40: 1185355762
+      postac_41: -341423536
+      postac_42: -705694785
+      postac_43: 593265773
+      postac_44: -1297860184
+      postac_45: -1538307512
+      postac_46: -27665761
+      postac_47: 1017338739
+      postac_48: 569516107
+      postac_49: -69215781
+      postac_5: 593168385
+      postac_50: -1914185429
+      postac_51: 501600553
+      postac_52: -235185244
+      postac_53: -1735576352
+      postac_54: -389012934
+      postac_55: -1454578790
+      postac_56: 1712772530
+      postac_57: -1599766574
+      postac_58: 1774945773
+      postac_59: -1255176318
+      postac_6: -209269810
+      postac_60: -805638956
+      postac_61: 1119075332
+      postac_62: 1377886481
+      postac_63: 1955243715
+      postac_64: 150371352
+      postac_65: -836405390
+      postac_66: 917369800
+      postac_67: -455075754
+      postac_68: -622861379
+      postac_69: -1133749799
+      postac_7: -1363851799
+      postac_70: 1225461302
+      postac_71: -350178467
+      postac_72: 351041227
+      postac_73: -42104945
+      postac_74: -711998155
+      postac_75: -1073270471
+      postac_76: 586848928
+      postac_77: -2101200153
+      postac_78: 609754081
+      postac_79: 1786308673
+      postac_8: -868793641
+      postac_80: -1721920424
+      postac_81: 576989877
+      postac_82: -1847104219
+      postac_83: -1083420900
+      postac_84: 167399960
+      postac_85: 256446058
+      postac_86: 2141747213
+      postac_87: -1423074276
+      postac_88: -79651906
+      postac_89: 1712998712
+      postac_9: -727195578
+      postac_90: -1605484982
+      postac_91: 2003207268
+      postac_92: -344676880
+      postac_93: 19392933
+      postac_94: 1090848754
+      postac_95: -1192815231
+      postac_96: -1010580015
+      postac_97: 1361330706
+      postac_98: 1702293233
+      postac_99: 1586084298
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1060 @@
+fileFormatVersion: 2
+guid: 5580ae41cdbaa6447aa26763d753db9a
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lafal_62
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 770
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecc6900e7dcff4b4082fc9233122d160
+      internalID: -424095270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_63
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 769
+        width: 31
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d580ac060a279684e9bba3f9cd08c56d
+      internalID: 1898846019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_64
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 768
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fb13d8ad1f00f4282736d4ee31f1f4
+      internalID: -1402760693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_65
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 767
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1493a2e76fad2640a0d3bf65ef6220f
+      internalID: -1915054453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_66
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 768
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d173d81051aac34ea5571e974075e8e
+      internalID: 1855383386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_67
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 769
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6bce574d53ffab41b696c785e24e84e
+      internalID: -795409382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_68
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 768
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d778ffc6258f62840a7891f5539b2106
+      internalID: -695403050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_69
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 767
+        width: 26
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c438b2c60f9ca2942a7113c0f124d8c3
+      internalID: 1097354521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_70
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 768
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e00b0f8b79574daac9313af584599
+      internalID: -1793468051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_71
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 705
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2502fe2f6183748891af079f1d2656
+      internalID: 1035805905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_72
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 705
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cc5af33645de134f98f71aad8650b13
+      internalID: 1911716707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_73
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 706
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df24d88ec29f1d54c8e6f84e4158877c
+      internalID: -597311667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_74
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 706
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fdb8ac4fb7b244b82894c0ba980879
+      internalID: -1016853787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_75
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 705
+        width: 27
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad2373f105235c4784588206f3b4b98
+      internalID: 1679895740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_76
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 705
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1823991912cbc7d4891f4ed20ff5f193
+      internalID: -702188892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_77
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 705
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89b61e09c00e2264c95cd5a615c6d6ab
+      internalID: -2079124215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_78
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 705
+        width: 25
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead838a0efbd4df489da9656df69c579
+      internalID: 1776113581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_79
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 705
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d42db433c9423f4cb508a84c879ba8c
+      internalID: 943198760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_80
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61c416aff8d6ac40b59c7545e942bd2
+      internalID: -2065449467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_81
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 641
+        width: 31
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4983d7f7e5b0218419f419884625f6f6
+      internalID: -677262269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_82
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 641
+        width: 29
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46af93a03df174b428b648d6c223c707
+      internalID: 746612201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_83
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 641
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eac352695bb1365488427cc9a45f4050
+      internalID: -1430866167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_84
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d24849332f54d4d83e326e17581be6
+      internalID: -1786551031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_85
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54dc0414dc52abc4dbd250b7aae4a8ce
+      internalID: 683339335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_86
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 641
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a8e078c128d509449ca2b58f12ad2e4
+      internalID: 1375103568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_87
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 641
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26813f062c8ace548a1744a54bb0c6fd
+      internalID: 643139076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_88
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 641
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4449f36177413194cb175ea7656d8242
+      internalID: -87787639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_89
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 578
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a816b468d4aeef499f7cde683c4b08a
+      internalID: -1542229122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_90
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 578
+        width: 24
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583356fbcf67c934ca58105e7a7a2e1d
+      internalID: 321714710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_91
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 578
+        width: 23
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbe62ea2b7663540b6edf6acd080a91
+      internalID: 341302039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_92
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 578
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304e1652e2e7fb64c8818cad49db89aa
+      internalID: 1808460209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_93
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 578
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6497d2fd5cc129e449e27b2098e871d9
+      internalID: 879322134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_94
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 578
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521a8e15037794747b91780d69652675
+      internalID: -2059632972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_95
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 578
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fec1b795f12db444b419ba381425cd7
+      internalID: -56670105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_96
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 578
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f46060a5a3aff8e408fa76c5302d0aea
+      internalID: 1368958370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lafal_97
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 578
+        width: 24
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09501eb230ea9ce46a1c4652f81b8709
+      internalID: -1116367662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lafal_0: 554588862
+      Lafal_1: -792505076
+      Lafal_10: 1315192791
+      Lafal_100: -1126807801
+      Lafal_101: 1009236640
+      Lafal_102: 563194157
+      Lafal_103: -1128549856
+      Lafal_104: 1076836605
+      Lafal_105: 1045772336
+      Lafal_106: -1542103858
+      Lafal_107: -652359309
+      Lafal_108: -476090306
+      Lafal_109: 1511305008
+      Lafal_11: -1461798335
+      Lafal_110: -774155303
+      Lafal_111: 1668841719
+      Lafal_112: -291223241
+      Lafal_113: -382945437
+      Lafal_114: -408751339
+      Lafal_115: 472285485
+      Lafal_116: 760974968
+      Lafal_117: -2003179086
+      Lafal_118: 1866226069
+      Lafal_119: 441026442
+      Lafal_12: -161215443
+      Lafal_120: -997355422
+      Lafal_121: -105399656
+      Lafal_122: -640563017
+      Lafal_123: -96098820
+      Lafal_124: 1641112786
+      Lafal_125: 777978983
+      Lafal_126: 1922997144
+      Lafal_127: 1748910820
+      Lafal_128: 1194796944
+      Lafal_129: -348304554
+      Lafal_13: -969073452
+      Lafal_130: -739789724
+      Lafal_131: 363733535
+      Lafal_132: 1121920584
+      Lafal_133: 198035593
+      Lafal_134: -1438771733
+      Lafal_135: 636899642
+      Lafal_136: 1221583780
+      Lafal_137: -122037489
+      Lafal_138: 597951155
+      Lafal_139: 1481333624
+      Lafal_14: 2095282713
+      Lafal_140: -177134312
+      Lafal_141: -1945860954
+      Lafal_142: -2118124800
+      Lafal_143: 570280750
+      Lafal_144: -249520948
+      Lafal_145: 804481346
+      Lafal_146: -2085915073
+      Lafal_147: 1779004702
+      Lafal_148: 1508996192
+      Lafal_149: -839862176
+      Lafal_15: -1439620872
+      Lafal_150: -1228982059
+      Lafal_151: -1969459512
+      Lafal_152: -754562222
+      Lafal_153: -488031768
+      Lafal_154: 662432755
+      Lafal_155: 563257550
+      Lafal_156: -2005524063
+      Lafal_157: 1883111656
+      Lafal_158: 1437722
+      Lafal_159: 202129085
+      Lafal_16: 1291496538
+      Lafal_160: -2134763773
+      Lafal_161: 511566437
+      Lafal_162: -478029299
+      Lafal_163: 1635354255
+      Lafal_164: -647943630
+      Lafal_165: -1510251913
+      Lafal_166: -1309624041
+      Lafal_167: 806613957
+      Lafal_168: -593985618
+      Lafal_169: 241909700
+      Lafal_17: -2093612381
+      Lafal_170: -1647204711
+      Lafal_171: 1821787521
+      Lafal_172: -83909676
+      Lafal_173: -957980893
+      Lafal_174: 284260201
+      Lafal_175: -748794723
+      Lafal_176: -104601926
+      Lafal_177: -1932300339
+      Lafal_178: -155212585
+      Lafal_179: 1667129385
+      Lafal_18: 571525995
+      Lafal_180: 1778481812
+      Lafal_19: -349783452
+      Lafal_2: 43234205
+      Lafal_20: -2039665135
+      Lafal_21: -1229085789
+      Lafal_22: -1365673863
+      Lafal_23: -536581928
+      Lafal_24: -1658356214
+      Lafal_25: -44720146
+      Lafal_26: 346109793
+      Lafal_27: -1465448896
+      Lafal_28: -1039518670
+      Lafal_29: -1133875245
+      Lafal_3: -1845504717
+      Lafal_30: -2099513628
+      Lafal_31: -792498933
+      Lafal_32: 194833400
+      Lafal_33: 1301244786
+      Lafal_34: -1421359619
+      Lafal_35: 126227869
+      Lafal_36: 694632862
+      Lafal_37: -1141601159
+      Lafal_38: -1864799140
+      Lafal_39: -1576828199
+      Lafal_4: -338233657
+      Lafal_40: -158862577
+      Lafal_41: -1111638560
+      Lafal_42: 1060742381
+      Lafal_43: -1316211876
+      Lafal_44: -503646784
+      Lafal_45: 638356986
+      Lafal_46: -1166612990
+      Lafal_47: 476181211
+      Lafal_48: 693193553
+      Lafal_49: -25632518
+      Lafal_5: -629084704
+      Lafal_50: -1727353513
+      Lafal_51: -323711692
+      Lafal_52: -1665435225
+      Lafal_53: 1772878158
+      Lafal_54: 481799645
+      Lafal_55: 923413456
+      Lafal_56: 1724757493
+      Lafal_57: 1725955201
+      Lafal_58: -965386864
+      Lafal_59: -549527160
+      Lafal_6: 1329193401
+      Lafal_60: -751634747
+      Lafal_61: 705594369
+      Lafal_62: -424095270
+      Lafal_63: 1898846019
+      Lafal_64: -1402760693
+      Lafal_65: -1915054453
+      Lafal_66: 1855383386
+      Lafal_67: -795409382
+      Lafal_68: -695403050
+      Lafal_69: 1097354521
+      Lafal_7: -103430988
+      Lafal_70: -1793468051
+      Lafal_71: 1035805905
+      Lafal_72: 1911716707
+      Lafal_73: -597311667
+      Lafal_74: -1016853787
+      Lafal_75: 1679895740
+      Lafal_76: -702188892
+      Lafal_77: -2079124215
+      Lafal_78: 1776113581
+      Lafal_79: 943198760
+      Lafal_8: -764690031
+      Lafal_80: -2065449467
+      Lafal_81: -677262269
+      Lafal_82: 746612201
+      Lafal_83: -1430866167
+      Lafal_84: -1786551031
+      Lafal_85: 683339335
+      Lafal_86: 1375103568
+      Lafal_87: 643139076
+      Lafal_88: -87787639
+      Lafal_89: -1542229122
+      Lafal_9: -359419120
+      Lafal_90: 321714710
+      Lafal_91: 341302039
+      Lafal_92: 1808460209
+      Lafal_93: 879322134
+      Lafal_94: -2059632972
+      Lafal_95: -56670105
+      Lafal_96: 1368958370
+      Lafal_97: -1116367662
+      Lafal_98: 428728882
+      Lafal_99: -694022944
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

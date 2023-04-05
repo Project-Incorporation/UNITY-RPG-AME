@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Spawn2.unity
+    guid: cd32a04bee6ff6f47b76d64e20f70dd3
+  - enabled: 1
+    path: Assets/Scenes/SecondMap.unity
+    guid: 4c41c84e056555d4fb83054847dd3678
+  - enabled: 1
+    path: Assets/Scenes/ThirdMap.unity
+    guid: b0e6440e63f6c444288ed23df29a6d62
   m_configObjects: {}

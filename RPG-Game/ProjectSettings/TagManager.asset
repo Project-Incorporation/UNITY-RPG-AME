@@ -47,6 +47,9 @@ TagManager:
   - name: Background_Items
     uniqueID: 4250941897
     locked: 0
+  - name: Houses
+    uniqueID: 974231345
+    locked: 0
   - name: Player
     uniqueID: 4189426099
     locked: 0

@@ -7,6 +7,7 @@ using TMPro;
 public class GameMenu : MonoBehaviour
 {
     public GameObject theMenu;
+    public GameObject[] windows;
 
     private CharStats[] playerStats;
 
@@ -41,7 +42,7 @@ public class GameMenu : MonoBehaviour
     {
         playerStats =  GameManager.instance.playerStats;
 
-        for(int i=0; i < playerStats.Length ; i++) 
+        for(int i=0; i<1; i++) 
         {
             if (playerStats[i].gameObject.activeInHierarchy)
             {
@@ -58,6 +59,20 @@ public class GameMenu : MonoBehaviour
             else
             {
                 charStatHolder[i].SetActive(false);
+            }
+        }
+    }
+    public void ToggleWindow(int windowNumber)
+    {
+        for(int i = 0; i < windows.Length; i++) 
+        {
+            if(i == windowNumber)
+            {
+                windows[i].SetActive(!windows[i].activeInHierarchy);
+            }
+            else
+            {
+                windows[i].SetActive(false);
             }
         }
     }

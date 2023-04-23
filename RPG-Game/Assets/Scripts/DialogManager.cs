@@ -44,9 +44,9 @@ public class DialogManager : MonoBehaviour
                     {
                         dialogBox.SetActive(false);
 
-                        PlayerController.instance.canMove = true;
+                        GameManager.instance.dialogActive = false;
 
-                        if(shouldMarkQuest)
+                        if (shouldMarkQuest)
                         {
                             shouldMarkQuest= false;
                             if(markQuestComplete)
@@ -91,7 +91,7 @@ public class DialogManager : MonoBehaviour
 
         nameBox.SetActive(isPerson);
 
-        PlayerController.instance.canMove = false;
+        GameManager.instance.dialogActive = true;
     }
 
     public void CheckIfName()

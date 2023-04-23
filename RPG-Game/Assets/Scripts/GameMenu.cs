@@ -19,9 +19,12 @@ public class GameMenu : MonoBehaviour
             if(theMenu.activeInHierarchy) 
             {
                 theMenu.SetActive(false);
-            }else
+                GameManager.instance.gameMenuOpen = false;
+            }
+            else
             {
                 theMenu.SetActive(true);
+                GameManager.instance.gameMenuOpen = true;
             }
         }
     }

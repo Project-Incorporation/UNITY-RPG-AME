@@ -23,6 +23,10 @@ public class GameMenu : MonoBehaviour
     public string selectedItem;
     public Item activeItem;
     public TMP_Text itemName, itemDescription,useButtonText;
+
+    public GameObject itemCharChoiceMenu;
+    public TMP_Text[] itemCharChoiceNames; 
+
     public static GameMenu instance;
     // Start is called before the first frame update
     void Start()
@@ -85,7 +89,23 @@ public class GameMenu : MonoBehaviour
                 windows[i].SetActive(false);
             }
         }
+        itemCharChoiceMenu.SetActive(false);
     }
+
+
+    public void CloseMenu()
+    {
+        for(int i = 0; i < windows.Length; i++)
+        {
+            windows[i].SetActive(false);
+        }
+        theMenu.SetActive(false);
+
+        GameManager.instance.gameMenuOpen = false;
+
+        itemCharChoiceMenu.SetActive(false);
+    }
+
 
     public void ShowItems()
     {
@@ -133,6 +153,23 @@ public class GameMenu : MonoBehaviour
         {
             GameManager.instance.RemoveItem(activeItem.itemName);
         }
+    }
+
+    public void OpenItemCharChoice()
+    {
+        itemCharChoiceMenu.SetActive(true);
+
+        for (int i = 0; i < itemCharChoiceNames.Length; i++)
+        {
+            itemCharChoiceNames[i].text = GameManager.instance.playerStats[i].charName;
+            itemCharChoiceNames[i].transform.parent.gameObject.SetActive(GameManager.instance.playerStats[i].gameObject.activeInHierarchy);
+        }
+
+    }
+
+    public void CloseItemCharChoice()
+    {
+        itemCharChoiceMenu.SetActive(false);
     }
 
 /*    public void UseItem()

@@ -2559,6 +2559,7 @@ GameObject:
   - component: {fileID: 1222368276}
   - component: {fileID: 1222368278}
   - component: {fileID: 1222368277}
+  - component: {fileID: 1222368279}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -10604,6 +10605,18 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1222368279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1222368275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7f5f8c603e31741b66418574f3ea16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1273406501
 GameObject:
   m_ObjectHideFlags: 0
@@ -10753,6 +10766,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.64
+--- !u!114 &1286945950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286945945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7f5f8c603e31741b66418574f3ea16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1309554201
 GameObject:
   m_ObjectHideFlags: 0

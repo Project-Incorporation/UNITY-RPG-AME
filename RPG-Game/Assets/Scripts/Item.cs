@@ -35,56 +35,7 @@ public class Item : MonoBehaviour
         
     }
 
-   /* public void Use()
+    public void Use(int charToUseOn)
     {
-        if (isItem) 
-        {
-            if(affectHP) 
-            {
-                CharStats.currentHP += amountToChange;
-                if(CharStats.currentHP > CharStats.maxHP)
-                {
-                    CharStats.currentHP = CharStats.maxHP;
-                }
-            }
-            if (affectMP)
-            {
-                CharStats.currentMP += amountToChange;
-                if (CharStats.currentMP > CharStats.maxMP)
-                {
-                    CharStats.currentMP = CharStats.maxMP;
-                }
-            }
-
-            if(affectStr)
-            {
-                CharStats.strength = amountToChange;
-            }
-        }
-
-        if(isWeapon)
-        {
-            if(CharStats.equippedWeapon != "")
-            {
-                GameManager.instance.AddItem(equippedWeapon);
-            }
-
-            CharStats.equippedWeapon = itemName;
-            CharStats.weaponPower = weaponStrenght;
-
-        }
-
-        if(isArmor)
-        {
-            if (CharStats.equippedArmor != "")
-            {
-                GameManager.instance.AddItem(equippedArmor);
-            }
-
-            CharStats.equippedArmor = itemName;
-            CharStats.armorPower = armorStrenght;
-        }
-
-        GameManager.instance.RemoveItem(itemName);
-    }*/
+    }
 }

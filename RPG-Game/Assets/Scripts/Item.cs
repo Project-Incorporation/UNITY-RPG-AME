@@ -20,9 +20,9 @@ public class Item : MonoBehaviour
     public bool affectHP, affectMP, affectStr;
 
     [Header("Weapon/Armor Details")]
-    public int weaponStrenght;
+    public int weaponStrength;
 
-    public int armorStrenght;
+    public int armorStrength;
     // Start is called before the first frame update
     void Start()
     {
@@ -63,7 +63,7 @@ public class Item : MonoBehaviour
 
             if (affectStr)
             {
-                selectedChar.strenght += amountToChange;
+                selectedChar.strength += amountToChange;
             }
         }
 
@@ -75,7 +75,7 @@ public class Item : MonoBehaviour
             }
 
             selectedChar.equippedWeapon = itemName;
-            selectedChar.weaponPower = weaponStrenght;
+            selectedChar.weaponPower = weaponStrength;
         }
 
         if (isArmor)
@@ -86,7 +86,7 @@ public class Item : MonoBehaviour
             }
 
             selectedChar.equippedArmor = itemName;
-            selectedChar.armorPower = armorStrenght;
+            selectedChar.armorPower = armorStrength;
         }
 
         GameManager.instance.RemoveItem(itemName);

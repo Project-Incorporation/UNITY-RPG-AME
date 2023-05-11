@@ -17,7 +17,12 @@ public class BattleManager : MonoBehaviour
     public BattleChar[] playerPrefabs;
     public BattleChar[] enemyPrefabs;
 
-    public List<BattleChar> activeBattlers = new List<BattleChar> ();
+    public List<BattleChar> activeBattlers = new List<BattleChar>();
+
+    public int currentTrun;
+    public bool turnWaiting;
+
+    public GameObject uiButtonsHolder;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +36,28 @@ public class BattleManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            BattleStart(new string[] { "Enemy_Marko" });
+            BattleStart(new string[] { "EnemyMarko" });
+        }
+
+        if(battleActive)
+        {
+            if(turnWaiting)
+            {
+                if (activeBattlers[currentTrun].isPlayer)
+                {
+                    uiButtonsHolder.SetActive(true);
+                }
+                else
+                {
+                    uiButtonsHolder.SetActive(false);
+
+                }
+            }
+
+            if (Input.GetKeyDown(KeyCode.N))
+            {
+                NextTurn();
+            }
         }
     }
 
@@ -91,6 +117,68 @@ public class BattleManager : MonoBehaviour
                     }
                 }
             }
+
+            turnWaiting = true;
+            currentTrun = Random.Range(0, activeBattlers.Count);
+        }
+    }
+
+    public void NextTurn()
+    {
+        currentTrun++;
+        if(currentTrun >= activeBattlers.Count)
+        {
+            currentTrun = 0;
+        }
+
+        turnWaiting= true;
+
+        UpdateBattle();
+    }
+
+    public void UpdateBattle()
+    {
+        bool allEnemiesDead = true;
+        bool allPlayersDead = true;
+
+        for(int i = 0; i < activeBattlers.Count; i++)
+        {
+            if (activeBattlers[i].currentHP < 0)
+            {
+                activeBattlers[i].currentHP = 0;
+            }
+
+            if (activeBattlers[i].currentHP == 0)
+            {
+                //if dead teammate
+            }
+            else
+            {
+                if (activeBattlers[i].isPlayer)
+                {
+                    allPlayersDead= false;
+                }
+                else
+                {
+                    allEnemiesDead = false;
+                }
+            }
+        }
+
+        if(allEnemiesDead || allPlayersDead)
+        {
+            if (allEnemiesDead)
+            {
+                //if won
+            }
+            else
+            {
+                //if failed
+            }
+
+            battleScene.SetActive(false);
+            GameManager.instance.battleActive = false;
+            battleActive = false;
         }
     }
 }

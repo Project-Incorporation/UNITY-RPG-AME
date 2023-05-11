@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4191329326052844576}
   - component: {fileID: 3434829002299682276}
   m_Layer: 0
-  m_Name: Enemy_Marko
+  m_Name: EnemyMarko
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,12 +100,12 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable: []
   charName: Marko
-  currentHP: 150
-  maxHP: 250
-  currentMP: 0
-  maxMP: 0
+  currentHP: 300
+  maxHP: 300
+  currentMP: 50
+  maxMP: 50
   strength: 5
-  defence: 5
-  wpnPower: 5
-  armrPower: 5
+  defence: 30
+  weaponPower: 15
+  armorPower: 20
   hasDied: 0

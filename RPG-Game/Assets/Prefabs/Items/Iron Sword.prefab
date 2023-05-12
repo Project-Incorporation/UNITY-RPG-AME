@@ -107,6 +107,6 @@ MonoBehaviour:
   amountToChange: 50
   affectHP: 0
   affectMP: 0
-  affectStr: 0
-  weaponStrenght: 18
-  armorStrenght: 0
+  affectStr: 1
+  weaponStrength: 10
+  armorStrength: 0

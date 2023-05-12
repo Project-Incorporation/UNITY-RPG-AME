@@ -19,7 +19,7 @@ public class BattleManager : MonoBehaviour
 
     public List<BattleChar> activeBattlers = new List<BattleChar>();
 
-    public int currentTrun;
+    public int currentTurn;
     public bool turnWaiting;
 
     public GameObject uiButtonsHolder;
@@ -43,7 +43,7 @@ public class BattleManager : MonoBehaviour
         {
             if(turnWaiting)
             {
-                if (activeBattlers[currentTrun].isPlayer)
+                if (activeBattlers[currentTurn].isPlayer)
                 {
                     uiButtonsHolder.SetActive(true);
                 }
@@ -119,16 +119,16 @@ public class BattleManager : MonoBehaviour
             }
 
             turnWaiting = true;
-            currentTrun = Random.Range(0, activeBattlers.Count);
+            currentTurn = Random.Range(0, activeBattlers.Count);
         }
     }
 
     public void NextTurn()
     {
-        currentTrun++;
-        if(currentTrun >= activeBattlers.Count)
+        currentTurn++;
+        if(currentTurn >= activeBattlers.Count)
         {
-            currentTrun = 0;
+            currentTurn = 0;
         }
 
         turnWaiting= true;

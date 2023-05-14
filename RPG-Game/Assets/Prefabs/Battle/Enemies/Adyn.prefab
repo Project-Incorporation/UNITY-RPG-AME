@@ -102,8 +102,8 @@ MonoBehaviour:
   - Slash
   - Fire
   charName: Adyn
-  currentHP: 150
-  maxHP: 250
+  currentHP: 50
+  maxHP: 50
   currentMP: 0
   maxMP: 0
   strength: 5

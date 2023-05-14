@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
 
     public int currentGold;
 
-    // Start is called before the first frame update
-
     void Start()
     {
         instance = this;

@@ -201,7 +201,7 @@ public class BattleManager : MonoBehaviour
 
         for(int i = 0; i < activeBattlers.Count; i++)
         {
-            if(activeBattlers[i].isPlayer && activeBattlers[i].currentHP > 0)
+            if(activeBattlers[0].isPlayer && activeBattlers[0].currentHP > 0)
             {
                 players.Add(i);
             }

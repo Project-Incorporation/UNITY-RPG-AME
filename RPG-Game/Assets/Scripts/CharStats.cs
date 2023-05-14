@@ -25,7 +25,6 @@ public class CharStats : MonoBehaviour
     public string equippedArmor;
     public Sprite charImage;
 
-
     void Start()
     {
         expToNextLevel = new int[maxLevel];

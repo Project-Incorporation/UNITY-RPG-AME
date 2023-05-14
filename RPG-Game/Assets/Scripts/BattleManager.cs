@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class BattleManager : MonoBehaviour
 {
@@ -24,6 +26,8 @@ public class BattleManager : MonoBehaviour
 
     public GameObject uiButtonsHolder;
 
+    public BattleMove[] movesList;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +40,7 @@ public class BattleManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            BattleStart(new string[] { "EnemyMarko" });
+            BattleStart(new string[] { "Adyn", "Marko" });
         }
 
         if(battleActive)
@@ -50,6 +54,9 @@ public class BattleManager : MonoBehaviour
                 else
                 {
                     uiButtonsHolder.SetActive(false);
+
+                    //enemy should attack
+                    StartCoroutine(EnemyMoveCo());
 
                 }
             }
@@ -67,26 +74,23 @@ public class BattleManager : MonoBehaviour
         {
             battleActive = true;
 
-            GameManager.instance.battleActive = this;
-
+            GameManager.instance.battleActive = true;
 
             transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
             battleScene.SetActive(true);
 
             //AudioManager.instance.PlayBGM(0); //remove the comment when ready
-
             for(int i = 0; i < playerPositions.Length; i++)
-            {
-                if (GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+            {   
+                if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
                 {
                     for(int j = 0; j < playerPrefabs.Length; j++)
                     {
-                        if (playerPrefabs[j].charName == GameManager.instance.playerStats[i].charName)
+                        if(playerPrefabs[j].charName == GameManager.instance.playerStats[i].charName)
                         {
                             BattleChar newPlayer = Instantiate(playerPrefabs[j], playerPositions[i].position, playerPositions[i].rotation);
                             newPlayer.transform.parent = playerPositions[i];
                             activeBattlers.Add(newPlayer);
-
 
                             CharStats thePlayer = GameManager.instance.playerStats[i];
                             activeBattlers[i].currentHP = thePlayer.currentHP;
@@ -102,11 +106,11 @@ public class BattleManager : MonoBehaviour
                 }
             }
 
-            for(int i = 0; i < enemiesToSpawn.Length; i++)
+            for (int i = 0; i < enemiesToSpawn.Length; i++)
             {
                 if (enemiesToSpawn[i] != "")
                 {
-                    for(int j = 0; j < enemyPrefabs.Length; j++)
+                    for (int j = 0; j < enemyPrefabs.Length; j++)
                     {
                         if (enemyPrefabs[j].charName == enemiesToSpawn[i])
                         {
@@ -120,7 +124,7 @@ public class BattleManager : MonoBehaviour
 
             turnWaiting = true;
             currentTurn = Random.Range(0, activeBattlers.Count);
-        }
+        }                   
     }
 
     public void NextTurn()
@@ -131,7 +135,7 @@ public class BattleManager : MonoBehaviour
             currentTurn = 0;
         }
 
-        turnWaiting= true;
+        turnWaiting = true;
 
         UpdateBattle();
     }
@@ -179,6 +183,38 @@ public class BattleManager : MonoBehaviour
             battleScene.SetActive(false);
             GameManager.instance.battleActive = false;
             battleActive = false;
+        }
+    }
+
+    public IEnumerator EnemyMoveCo()
+    {
+        turnWaiting = false;
+        yield return new WaitForSeconds(1f);
+        EnemyAttack();
+        yield return new WaitForSeconds(1f);
+        NextTurn();
+    }
+
+    public void EnemyAttack()
+    {
+        List<int> players = new List<int>();
+
+        for(int i = 0; i < activeBattlers.Count; i++)
+        {
+            if(activeBattlers[i].isPlayer && activeBattlers[i].currentHP > 0)
+            {
+                players.Add(i);
+            }
+        }
+        int selectedTarget = players[Random.Range(0, players.Count)];
+
+        int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
+        for(int i = 0; i < movesList.Length; i++)
+        {
+            if(movesList[i].moveName == activeBattlers[currentTurn].movesAvailable[selectAttack])
+            {
+                Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+            }
         }
     }
 }

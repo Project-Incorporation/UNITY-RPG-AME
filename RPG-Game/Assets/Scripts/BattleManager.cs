@@ -82,17 +82,17 @@ public class BattleManager : MonoBehaviour
             //AudioManager.instance.PlayBGM(0); //remove the comment when ready
             for(int i = 0; i < playerPositions.Length; i++)
             {   
-                if(GameManager.instance.playerStats[i].gameObject.activeInHierarchy)
+                if(GameManager.instance.playerStats[0].gameObject.activeInHierarchy)
                 {
                     for(int j = 0; j < playerPrefabs.Length; j++)
                     {
-                        if(playerPrefabs[j].charName == GameManager.instance.playerStats[i].charName)
+                        if(playerPrefabs[0].charName == GameManager.instance.playerStats[0].charName)
                         {
                             BattleChar newPlayer = Instantiate(playerPrefabs[j], playerPositions[i].position, playerPositions[i].rotation);
                             newPlayer.transform.parent = playerPositions[i];
                             activeBattlers.Add(newPlayer);
 
-                            CharStats thePlayer = GameManager.instance.playerStats[i];
+                            CharStats thePlayer = GameManager.instance.playerStats[0];
                             activeBattlers[i].currentHP = thePlayer.currentHP;
                             activeBattlers[i].maxHP = thePlayer.maxHP;
                             activeBattlers[i].currentMP = thePlayer.currentMP;

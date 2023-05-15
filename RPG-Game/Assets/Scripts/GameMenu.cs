@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -32,6 +33,8 @@ public class GameMenu : MonoBehaviour
 
     public static GameMenu instance;
     public TMP_Text goldText;
+
+    public string mainMenuName;
 
     // Start is called before the first frame update
     void Start()
@@ -232,5 +235,15 @@ public class GameMenu : MonoBehaviour
     public void PlayButtonSound()
     {
         AudioManager.instance.PlaySFX(4);
+    }
+
+    public void QuitGame()
+    {
+        SceneManager.LoadScene(mainMenuName);
+
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerController.instance.gameObject);
+        Destroy(AudioManager.instance.gameObject);
+        Destroy(gameObject);
     }
 }

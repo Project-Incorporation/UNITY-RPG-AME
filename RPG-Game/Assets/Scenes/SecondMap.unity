@@ -8431,6 +8431,11 @@ PrefabInstance:
       propertyPath: charName
       value: Lafal
       objectReference: {fileID: 0}
+    - target: {fileID: 5166756183791280774, guid: 794fe4605dbf0094b85674b452f5c805,
+        type: 3}
+      propertyPath: currentEXP
+      value: 333
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 794fe4605dbf0094b85674b452f5c805, type: 3}
 --- !u!1 &1618352400

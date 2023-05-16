@@ -1,0 +1,4183 @@
+fileFormatVersion: 2
+guid: 7e8c9bc4bfe2d5547979f401776a6c92
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1280
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0e60165b3a13e4d87999f29d1886f3
+      internalID: -318416909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1280
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a182161d65f941d478f348c086ee8505
+      internalID: -1966301697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_2
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1280
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2847cbb10096544bd6b21cafcb5e75
+      internalID: 359498030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_3
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1280
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac198f133ccbc1448a058a031f9a5860
+      internalID: -1528473584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_4
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1280
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c366c0e15063b284a9d92abcd01f1b15
+      internalID: 1483954734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_5
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1280
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345c289e84ee8584bb45f7bc6339740f
+      internalID: 120770766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1280
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c576454071d8fd4b868f230d4e6db36
+      internalID: -283277657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_7
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1308
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a414a314fa7dd1740b4163e7b92fc626
+      internalID: 744836478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_8
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 1317
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a9a86f5e8997647b8894ce41cecd9f
+      internalID: -856444870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_9
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 1309
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092dc9ee68b379547a1e7a13c5793f24
+      internalID: 1162299641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_10
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1317
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4ce0a441a764f64f82e579b5f2df379
+      internalID: 887577245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_11
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 1317
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0585a19d06132c4784274cbaa5a6721
+      internalID: -1565010147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_12
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1299
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c206e47817f9a4fbba7b60c8ef8d60
+      internalID: -309428865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1216
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb7cd97e9671c8842ac9666fb491d9ab
+      internalID: -1032480709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1216
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2a9019643cbb64fba823e5d7a179dd
+      internalID: 70008022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_15
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1216
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0454f91d5d21f9448370ad192c57654
+      internalID: -1526068685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_16
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 1216
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e36e88c5bb1d2a48a26ab3276061298
+      internalID: -932774665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1216
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2f18dd78d3c3947b5b8261ff4ecf7f
+      internalID: -1381999858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_18
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1216
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2db3f3303bda5d4c8b14d368709de0c
+      internalID: -1776016042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_19
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 1216
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d4515aaaa46a8429ab814efef5e2d5
+      internalID: -1078968687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1152
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db61f2336440c9545a5219e41e4573ea
+      internalID: 1690392735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1152
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8026059b95b3a5346be4f537f420393f
+      internalID: 696259584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_22
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1152
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e28c4d4c3981f347829c4f23bc3c1fe
+      internalID: -632949919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_23
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1152
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfedab03379528b4cac64588b860d0fa
+      internalID: -1410317765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_24
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1152
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e62f6e99e45a884448645701c6b6b697
+      internalID: 830235168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_25
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 1152
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1b7f9d1073a674385398cf076cea41
+      internalID: 1309239136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_26
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 1152
+        width: 58
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e9c8ed8ff816a44bfa4c4aea5299be
+      internalID: 1149039660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_27
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1088
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce3178118ac78b419bd5a52c2683611
+      internalID: -1474043991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 1088
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 845b9857b984b9f49a6b37bc06e2d02d
+      internalID: -871596602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_29
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 1088
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcdc1f6ed227b1441a8db3e70549f6ae
+      internalID: 1294280321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_30
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 1088
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6625fd86f27ce849a7378f245d89440
+      internalID: -655279034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_31
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1088
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b2860ab59a0c24da60e5104fe5ce03
+      internalID: 19809904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_32
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1088
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9715db4ed87bbc4b9817fdbfa2d1d4f
+      internalID: 1972424271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_33
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1088
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 475030f5cdfae9e4dadbb0d2d3659472
+      internalID: 1741032268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_34
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1024
+        width: 48
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67bee14518f3e434ab4edc483b459ac1
+      internalID: 546566022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_35
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 1024
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa03fb79883b7d4d98d868814a09277
+      internalID: -1904595362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_36
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1024
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c31b023b29107a448fd4d291bc46852
+      internalID: -546510192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_37
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1024
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0749f51ee652d77459c60f96ad2c7208
+      internalID: -1585941011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_38
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1024
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80286fe9cf8103b4d8b68b8fe2bf9d04
+      internalID: -1006332197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_39
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 1024
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538d2f289fdcd964798fc8ee4f35d561
+      internalID: -1577537849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_40
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 1024
+        width: 39
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938bf2a6238b4a24aa7fee12ff016bd7
+      internalID: 1894463794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_41
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1024
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17354495871845c498d953ca73508e93
+      internalID: 966939871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_42
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 960
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2c8cdfe2c6ee745877de2df97a5e68
+      internalID: 1780925790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 960
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d325ba2c84d4bb249803fcab37b23a8e
+      internalID: 280755703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_44
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 960
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9980e3e1eb603b47833ae7a638422ec
+      internalID: 110996410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_45
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 960
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01fe6b2b9bad7a24895fb16960b80279
+      internalID: 1470734959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_46
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 960
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a54daf821c2b48f499ebf72851ad3a97
+      internalID: 276289603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_47
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 960
+        width: 52
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f53061a8e5ef24e8ac4003dd7ed6aa
+      internalID: 365856810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_48
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 960
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537abb9e765b0f49b6000df3d494dd0
+      internalID: -254205417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_49
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 960
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91e315ce019762443b3ed98d51c4a36a
+      internalID: -148219281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_50
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 896
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a37a745767d1a046a4a4200931f3135
+      internalID: -433238496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_51
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 896
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb9afc21a9b97494c9cc5bea1bae9f8d
+      internalID: -56768828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_52
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 896
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce90778864bb22449f4da0c4f566ad6
+      internalID: 1202035773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_53
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 897
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d35f25f88d06284cbcbe3e5206478ae
+      internalID: -1477311368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_54
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 897
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00864221bb6ebd498176013f7cad0d3
+      internalID: 698122882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_55
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 896
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c4efbdf22251c74c8399f876109e59b
+      internalID: 564856921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_56
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 897
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55143805cd6723c48b3609afe7dac6a9
+      internalID: 1152966819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_57
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 897
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af46d63a30205b469a84272d13c2449
+      internalID: -1211436559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_58
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 832
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26ea2c22fafc78e48840e4d844ded452
+      internalID: 627212865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_59
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 832
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6b3e7457fe7284cbdc20addd343432
+      internalID: 1580239705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_60
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 832
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f6cddd2063f2a47943047d05c850e8
+      internalID: -973684665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_61
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 832
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322c6c945ecdf4b49b7e2f93e48104a4
+      internalID: -334978199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_62
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 832
+        width: 49
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b8091db46db341a21197abaff1d2d
+      internalID: 349635849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_63
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 832
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50020a832d4343c43890605465ee8118
+      internalID: -1504862926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_64
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 832
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd920f9e0dedcc4880a83c9320beea4
+      internalID: 883851357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_65
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 832
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658ca4c5ef84e8c40b27a5d27370b6fb
+      internalID: 236308839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_66
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 768
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ef82fe48682b844a2e7c78be124c02
+      internalID: 529435020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_67
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 768
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e83bad4905dace49b8a3d78a078b58b
+      internalID: 368624586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_68
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 768
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17780fa7172ec3a4ab643965582601b2
+      internalID: -1834467413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_69
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 768
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf4fba4393b01541aae72c103da75da
+      internalID: 882475757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_70
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 768
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e61ec31a67ea0844baaf438105dc7db3
+      internalID: 1761272223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_71
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 768
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569f2e53f33efb94ea362d4273d67448
+      internalID: 1911819711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_72
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 768
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2ff44fe1f85514bb8b071875ca94cd
+      internalID: -1317835717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_73
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 768
+        width: 47
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae016586bd7eaa4db35194a3b31e0f7
+      internalID: 11278123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_74
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 768
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b52ca7fe80c1524bbfa39f8e5dfad18
+      internalID: 917285787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_75
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 704
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b780816c14ef0444db66b71d99760460
+      internalID: -1601654906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_76
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 704
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5037784f21fbc514797807a58640718f
+      internalID: 2008189768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_77
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 704
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b6c1c0407b479846bd7feb39f170bf0
+      internalID: 1852064839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_78
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 704
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16586285e7b65144fa070c7ceff5286b
+      internalID: 1684769798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_79
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 704
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bfbca343e3c79e40ac2dc9f52b31989
+      internalID: 501084494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_80
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 704
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d266dbb0630b1d1438e2f6b5dfcdfd44
+      internalID: -650150707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_81
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 704
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d974ab67579ef4a8075166eab63798
+      internalID: -17549402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_82
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 704
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15883956df0f41c4ea2e7156e6c06f8d
+      internalID: -1852399720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_83
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 704
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2cec8700a8c8d4e91e17e8edd18cdf
+      internalID: -319179469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_84
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 640
+        width: 50
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb79851ae034bc14dbf62ebd5c4cee06
+      internalID: -776430604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_85
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 640
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e5f5c6143e03b41abfb4282d8ad239
+      internalID: -2141508859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_86
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 640
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54eaf2d6b4b16244395570d1549949de
+      internalID: -1623555112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_87
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 640
+        width: 50
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48738a4330850ba4497c1a250187ae1d
+      internalID: 1301340227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_88
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 640
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a51a38adc5476240bd5bd7e58030855
+      internalID: 1528481504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_89
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 640
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ad2a071060d15f4b88e5589a95ad041
+      internalID: -1983060139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_90
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 640
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4d56984de530d45bfef9a55692e5c9
+      internalID: -1280819886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_91
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 640
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c14f5bf38924794ba6e45d64dbf62ee
+      internalID: -734776467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_92
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 640
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f2a91305bf5ded468dae23fa4689727
+      internalID: 385085461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_93
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 576
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174d58c951112dc43b650b54d1ad0366
+      internalID: 1945857506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_94
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 576
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d4df615c558be4b94162199b7ced5d
+      internalID: 1226296855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_95
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 576
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c675f605e9bfeea4f90460e6d65b4b00
+      internalID: -41087156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_96
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 576
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 524f56706ef2a34428f4eea044f2c7d8
+      internalID: 641072065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_97
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 576
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4030440e54376b447adc7a6ca5a0a503
+      internalID: -1233728376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_98
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 576
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d296d9f45220a4c4aa74a3bb30a76617
+      internalID: 711099741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_99
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 576
+        width: 47
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa51148756b9046b566b25bc566829
+      internalID: -1322081341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_100
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 576
+        width: 48
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64520e508fa0f8b42a617c644027b10c
+      internalID: 1307171752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_101
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 576
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2357eeb3d3377434383a9cc29d75e30b
+      internalID: -1403830927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_102
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 512
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc99d93598cd95418104a73e85ba2f5
+      internalID: 808791825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_103
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 512
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99550410217a13346a8f24a7dfbb9181
+      internalID: 2041689492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_104
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 512
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d29e32117223fb409ed4a21ed5b0c69
+      internalID: 1909576482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_105
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 512
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10715a6fcfd7ede4c8bfe32b6f84f7d6
+      internalID: -1277094517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_106
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 512
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5b7f45a0f34f044bbcaef83060f9ce
+      internalID: -1934327031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_107
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 512
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b811829a8852d04c902849a2e699949
+      internalID: 614121524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_108
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 448
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d7e802fddfac2d4bb9b04f84bce7de1
+      internalID: -1319411535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_109
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 448
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e806f0f4cd727644a111ba5b4742514
+      internalID: 1158757302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 448
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5fe6de7a45ceba45bc49b826389ee05
+      internalID: 774630178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_111
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 448
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f322424f7a16f4d85cf64ce5c52c2e
+      internalID: -2098144455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 448
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c7a36b58bd3f314099939e0cd0954be
+      internalID: 1207317276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_113
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 448
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0bab476b0cd50449e2e335717f331a
+      internalID: -1993203243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_114
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 384
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51828645f5adbf944a52b6a68cec55a6
+      internalID: -2119446686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_115
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 384
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2beda76088133fe47a45d0169b5ec5f5
+      internalID: -681984224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_116
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 384
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28b264bf6b0686429be21fe8c9cb2da
+      internalID: -1569599753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_117
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 384
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf16696678369d14ab753e407747af6d
+      internalID: -1454963066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_118
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 384
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f00bf1768e8fb4409d269c17c657df3
+      internalID: 1923836079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_119
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 384
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54fb046d573d01749a87b66dbbf1183f
+      internalID: 1029412050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_120
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 320
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d13ed871a09d3b4f81ff0efdf8cb22d
+      internalID: 551335630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_121
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 320
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b5b2ec1f2778947b9c658b8ff0b9b8
+      internalID: 844676486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_122
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 320
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a9aadfb17a7c748abcd2ae4f489e3e
+      internalID: -1563547369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_123
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 320
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a209e74833d43b46bbb5e81e02a11a7
+      internalID: 2023493298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_124
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 320
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de81b96a619c87428458fc23c4596b8
+      internalID: -1946882663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_125
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 320
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95bba67ceb7e2a42acb1500612ff616
+      internalID: 484017826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_126
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 256
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12ee96e8ca821f14bb6884481a8895eb
+      internalID: 190921119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_127
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 256
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d33a3d5a1c6e34788d99ec79fd182a
+      internalID: 1596622788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_128
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 256
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6eb530f1a83364889c1a63e06159c7
+      internalID: -1271193606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_129
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4109bb34502388244b56ec1edc0b94fd
+      internalID: -1132848216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_130
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0566f074e47e5d54b8ad85ceb01a1c94
+      internalID: -1848068510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_131
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 256
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48905d3a6cac07b4ab852490aeadb259
+      internalID: -946916774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_132
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 256
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b87c3aa9619285409ef95869cae6de2
+      internalID: -1681408138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_133
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e0887cc348e724487b025cc3f581d6
+      internalID: 1592199592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_134
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 256
+        width: 40
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8800737cfd07cf040b0034b0a74c98c0
+      internalID: -1498837947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_135
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c55f77e32caf9b4caff293acdf47ee7
+      internalID: -1595908069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_136
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7761bae108d93e40ba117ffb02cfa12
+      internalID: 253233593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_137
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffbbb47d35b34f4d923a86b922e9e5c
+      internalID: -1151828774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_138
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 256
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677434cc1f4cc2b459e997a09874fc3c
+      internalID: -1003598249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_139
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8be3646333e84504cb58366c130c1603
+      internalID: 1219907462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_140
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 192
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 121a0009bc78bdc4fb551a42b54ce28b
+      internalID: 2097813510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_141
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01420e6316438546874a3924f47e0f4
+      internalID: -687681174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_142
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18d9e81287bae745ba60a75246f5578
+      internalID: 688438110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_143
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dae9b6cf924b7a744a6370ad6d55f95c
+      internalID: 586111138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_144
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 192
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5335af10942b26b41a3ffa34e49b560b
+      internalID: 1613126059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_145
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 192
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d9481b8fc1fe040b479fb6b0ed6b4d
+      internalID: -771448609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_146
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215f8b6d7bb02c7488afa7ccca94a8e9
+      internalID: -1810716975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_147
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411cc283f7164f84fa3d77d732418f4d
+      internalID: 1013229811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_148
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3deb409d553bc3a44bea0d4437f5ae87
+      internalID: -1374154619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_149
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ea2090de8b96b9449a9738b395fc16f
+      internalID: 1132394110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_150
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 192
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24bddfad23b50ad45a4b9818d3fa4bf7
+      internalID: -630847052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_151
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 192
+        width: 40
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae288b62ff53c6e4ebbe2456b35b5eff
+      internalID: -1489765088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_152
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b4fe1d57657e94da25ed43f6239ffd
+      internalID: -851011105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_153
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9927a35eb3c7884585716703a1f975f
+      internalID: -1641784027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_154
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 128
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec0b1c0acaf2e14190fbd80539d540a
+      internalID: 1228050735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_155
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 128
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38cf50f377bbfa94a8e61e0752e1144a
+      internalID: -720121097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_156
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7694d4aca57346865de320f66ba06
+      internalID: -1391449196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_157
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d37677a5421fc4a46aa44fb1d3965c22
+      internalID: 1571441166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_158
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e19eabe68259404dac853b1a80184da
+      internalID: 638965293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_159
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7a30cd92e40e45468f06ee3d5511df1
+      internalID: 1469750595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_160
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67039d73b5d7ca4185c94b61c3e4e3f
+      internalID: 1947458349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_161
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59d00a769b610f44bd48a44816ddaca
+      internalID: 397179032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_162
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ec310e40c5904499908cc111e3a46c
+      internalID: 421833469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_163
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07dbc07e092c6946831570fe4a22011
+      internalID: 1175967511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_164
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 128
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec9df3701c07ed4fa42cef971aef562
+      internalID: 1124648502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_165
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 64
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a89ac2f90dd2604fac29938819b61d2
+      internalID: -287011457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_166
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 64
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e848582254df54c4ab828fc822120363
+      internalID: -1814739029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_167
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 64
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f80769fca45456942a75050c3dc5e9d9
+      internalID: 1140269240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_168
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 64
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc839f4f417e36d4c913fd1d3870c847
+      internalID: 64367304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_169
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40ef3a6568456c44a6ec886f0602d2f
+      internalID: -251615294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_170
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54951fe6459dbe3438d4af3128c2773c
+      internalID: 307625128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_171
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c9fe0cd8346ed0458c5b637414ff733
+      internalID: -158659340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_172
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d08d4bd8c8302c40a3a5bbf4306c3fc
+      internalID: -1818036849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_173
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 64
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba3f86f5fb3894344be6094eceb0f90b
+      internalID: -1133985160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_174
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 64
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0b9e667422b30469410e63a78dda54
+      internalID: -1180668599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_175
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 64
+        width: 38
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3a91e9cf471b85489b6a0659f9da298
+      internalID: -1800509808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_176
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 64
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e6beba7a2cbf7499dd215c22c8b962
+      internalID: -1091525350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_177
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 64
+        width: 36
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152b5fdd49c9cea4d8960916522548d9
+      internalID: -1470060227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_178
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 42
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83650ebb3bb6e2d438dc342f1139ef39
+      internalID: -1517958291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_179
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 0
+        width: 42
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b86f0021d08ce49aa641b2ea556dc5
+      internalID: 805767946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_180
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 0
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e978ccc6d211448b2ee7fabcbc2d00
+      internalID: 1710835406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_181
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 42
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6e2089c9b584f489bede7f10aa4e48
+      internalID: -805731636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_182
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 1
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a7cb23c719d514792fab5f91ba6c5f
+      internalID: 467086747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkinEnemyChararcter_183
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 0
+        width: 42
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f951c4c5113eb34b927e5df2a0435ea
+      internalID: -11588470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      pumpkinEnemyChararcter_0: -318416909
+      pumpkinEnemyChararcter_1: -1966301697
+      pumpkinEnemyChararcter_10: 887577245
+      pumpkinEnemyChararcter_100: 1307171752
+      pumpkinEnemyChararcter_101: -1403830927
+      pumpkinEnemyChararcter_102: 808791825
+      pumpkinEnemyChararcter_103: 2041689492
+      pumpkinEnemyChararcter_104: 1909576482
+      pumpkinEnemyChararcter_105: -1277094517
+      pumpkinEnemyChararcter_106: -1934327031
+      pumpkinEnemyChararcter_107: 614121524
+      pumpkinEnemyChararcter_108: -1319411535
+      pumpkinEnemyChararcter_109: 1158757302
+      pumpkinEnemyChararcter_11: -1565010147
+      pumpkinEnemyChararcter_110: 774630178
+      pumpkinEnemyChararcter_111: -2098144455
+      pumpkinEnemyChararcter_112: 1207317276
+      pumpkinEnemyChararcter_113: -1993203243
+      pumpkinEnemyChararcter_114: -2119446686
+      pumpkinEnemyChararcter_115: -681984224
+      pumpkinEnemyChararcter_116: -1569599753
+      pumpkinEnemyChararcter_117: -1454963066
+      pumpkinEnemyChararcter_118: 1923836079
+      pumpkinEnemyChararcter_119: 1029412050
+      pumpkinEnemyChararcter_12: -309428865
+      pumpkinEnemyChararcter_120: 551335630
+      pumpkinEnemyChararcter_121: 844676486
+      pumpkinEnemyChararcter_122: -1563547369
+      pumpkinEnemyChararcter_123: 2023493298
+      pumpkinEnemyChararcter_124: -1946882663
+      pumpkinEnemyChararcter_125: 484017826
+      pumpkinEnemyChararcter_126: 190921119
+      pumpkinEnemyChararcter_127: 1596622788
+      pumpkinEnemyChararcter_128: -1271193606
+      pumpkinEnemyChararcter_129: -1132848216
+      pumpkinEnemyChararcter_13: -1032480709
+      pumpkinEnemyChararcter_130: -1848068510
+      pumpkinEnemyChararcter_131: -946916774
+      pumpkinEnemyChararcter_132: -1681408138
+      pumpkinEnemyChararcter_133: 1592199592
+      pumpkinEnemyChararcter_134: -1498837947
+      pumpkinEnemyChararcter_135: -1595908069
+      pumpkinEnemyChararcter_136: 253233593
+      pumpkinEnemyChararcter_137: -1151828774
+      pumpkinEnemyChararcter_138: -1003598249
+      pumpkinEnemyChararcter_139: 1219907462
+      pumpkinEnemyChararcter_14: 70008022
+      pumpkinEnemyChararcter_140: 2097813510
+      pumpkinEnemyChararcter_141: -687681174
+      pumpkinEnemyChararcter_142: 688438110
+      pumpkinEnemyChararcter_143: 586111138
+      pumpkinEnemyChararcter_144: 1613126059
+      pumpkinEnemyChararcter_145: -771448609
+      pumpkinEnemyChararcter_146: -1810716975
+      pumpkinEnemyChararcter_147: 1013229811
+      pumpkinEnemyChararcter_148: -1374154619
+      pumpkinEnemyChararcter_149: 1132394110
+      pumpkinEnemyChararcter_15: -1526068685
+      pumpkinEnemyChararcter_150: -630847052
+      pumpkinEnemyChararcter_151: -1489765088
+      pumpkinEnemyChararcter_152: -851011105
+      pumpkinEnemyChararcter_153: -1641784027
+      pumpkinEnemyChararcter_154: 1228050735
+      pumpkinEnemyChararcter_155: -720121097
+      pumpkinEnemyChararcter_156: -1391449196
+      pumpkinEnemyChararcter_157: 1571441166
+      pumpkinEnemyChararcter_158: 638965293
+      pumpkinEnemyChararcter_159: 1469750595
+      pumpkinEnemyChararcter_16: -932774665
+      pumpkinEnemyChararcter_160: 1947458349
+      pumpkinEnemyChararcter_161: 397179032
+      pumpkinEnemyChararcter_162: 421833469
+      pumpkinEnemyChararcter_163: 1175967511
+      pumpkinEnemyChararcter_164: 1124648502
+      pumpkinEnemyChararcter_165: -287011457
+      pumpkinEnemyChararcter_166: -1814739029
+      pumpkinEnemyChararcter_167: 1140269240
+      pumpkinEnemyChararcter_168: 64367304
+      pumpkinEnemyChararcter_169: -251615294
+      pumpkinEnemyChararcter_17: -1381999858
+      pumpkinEnemyChararcter_170: 307625128
+      pumpkinEnemyChararcter_171: -158659340
+      pumpkinEnemyChararcter_172: -1818036849
+      pumpkinEnemyChararcter_173: -1133985160
+      pumpkinEnemyChararcter_174: -1180668599
+      pumpkinEnemyChararcter_175: -1800509808
+      pumpkinEnemyChararcter_176: -1091525350
+      pumpkinEnemyChararcter_177: -1470060227
+      pumpkinEnemyChararcter_178: -1517958291
+      pumpkinEnemyChararcter_179: 805767946
+      pumpkinEnemyChararcter_18: -1776016042
+      pumpkinEnemyChararcter_180: 1710835406
+      pumpkinEnemyChararcter_181: -805731636
+      pumpkinEnemyChararcter_182: 467086747
+      pumpkinEnemyChararcter_183: -11588470
+      pumpkinEnemyChararcter_19: -1078968687
+      pumpkinEnemyChararcter_2: 359498030
+      pumpkinEnemyChararcter_20: 1690392735
+      pumpkinEnemyChararcter_21: 696259584
+      pumpkinEnemyChararcter_22: -632949919
+      pumpkinEnemyChararcter_23: -1410317765
+      pumpkinEnemyChararcter_24: 830235168
+      pumpkinEnemyChararcter_25: 1309239136
+      pumpkinEnemyChararcter_26: 1149039660
+      pumpkinEnemyChararcter_27: -1474043991
+      pumpkinEnemyChararcter_28: -871596602
+      pumpkinEnemyChararcter_29: 1294280321
+      pumpkinEnemyChararcter_3: -1528473584
+      pumpkinEnemyChararcter_30: -655279034
+      pumpkinEnemyChararcter_31: 19809904
+      pumpkinEnemyChararcter_32: 1972424271
+      pumpkinEnemyChararcter_33: 1741032268
+      pumpkinEnemyChararcter_34: 546566022
+      pumpkinEnemyChararcter_35: -1904595362
+      pumpkinEnemyChararcter_36: -546510192
+      pumpkinEnemyChararcter_37: -1585941011
+      pumpkinEnemyChararcter_38: -1006332197
+      pumpkinEnemyChararcter_39: -1577537849
+      pumpkinEnemyChararcter_4: 1483954734
+      pumpkinEnemyChararcter_40: 1894463794
+      pumpkinEnemyChararcter_41: 966939871
+      pumpkinEnemyChararcter_42: 1780925790
+      pumpkinEnemyChararcter_43: 280755703
+      pumpkinEnemyChararcter_44: 110996410
+      pumpkinEnemyChararcter_45: 1470734959
+      pumpkinEnemyChararcter_46: 276289603
+      pumpkinEnemyChararcter_47: 365856810
+      pumpkinEnemyChararcter_48: -254205417
+      pumpkinEnemyChararcter_49: -148219281
+      pumpkinEnemyChararcter_5: 120770766
+      pumpkinEnemyChararcter_50: -433238496
+      pumpkinEnemyChararcter_51: -56768828
+      pumpkinEnemyChararcter_52: 1202035773
+      pumpkinEnemyChararcter_53: -1477311368
+      pumpkinEnemyChararcter_54: 698122882
+      pumpkinEnemyChararcter_55: 564856921
+      pumpkinEnemyChararcter_56: 1152966819
+      pumpkinEnemyChararcter_57: -1211436559
+      pumpkinEnemyChararcter_58: 627212865
+      pumpkinEnemyChararcter_59: 1580239705
+      pumpkinEnemyChararcter_6: -283277657
+      pumpkinEnemyChararcter_60: -973684665
+      pumpkinEnemyChararcter_61: -334978199
+      pumpkinEnemyChararcter_62: 349635849
+      pumpkinEnemyChararcter_63: -1504862926
+      pumpkinEnemyChararcter_64: 883851357
+      pumpkinEnemyChararcter_65: 236308839
+      pumpkinEnemyChararcter_66: 529435020
+      pumpkinEnemyChararcter_67: 368624586
+      pumpkinEnemyChararcter_68: -1834467413
+      pumpkinEnemyChararcter_69: 882475757
+      pumpkinEnemyChararcter_7: 744836478
+      pumpkinEnemyChararcter_70: 1761272223
+      pumpkinEnemyChararcter_71: 1911819711
+      pumpkinEnemyChararcter_72: -1317835717
+      pumpkinEnemyChararcter_73: 11278123
+      pumpkinEnemyChararcter_74: 917285787
+      pumpkinEnemyChararcter_75: -1601654906
+      pumpkinEnemyChararcter_76: 2008189768
+      pumpkinEnemyChararcter_77: 1852064839
+      pumpkinEnemyChararcter_78: 1684769798
+      pumpkinEnemyChararcter_79: 501084494
+      pumpkinEnemyChararcter_8: -856444870
+      pumpkinEnemyChararcter_80: -650150707
+      pumpkinEnemyChararcter_81: -17549402
+      pumpkinEnemyChararcter_82: -1852399720
+      pumpkinEnemyChararcter_83: -319179469
+      pumpkinEnemyChararcter_84: -776430604
+      pumpkinEnemyChararcter_85: -2141508859
+      pumpkinEnemyChararcter_86: -1623555112
+      pumpkinEnemyChararcter_87: 1301340227
+      pumpkinEnemyChararcter_88: 1528481504
+      pumpkinEnemyChararcter_89: -1983060139
+      pumpkinEnemyChararcter_9: 1162299641
+      pumpkinEnemyChararcter_90: -1280819886
+      pumpkinEnemyChararcter_91: -734776467
+      pumpkinEnemyChararcter_92: 385085461
+      pumpkinEnemyChararcter_93: 1945857506
+      pumpkinEnemyChararcter_94: 1226296855
+      pumpkinEnemyChararcter_95: -41087156
+      pumpkinEnemyChararcter_96: 641072065
+      pumpkinEnemyChararcter_97: -1233728376
+      pumpkinEnemyChararcter_98: 711099741
+      pumpkinEnemyChararcter_99: -1322081341
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

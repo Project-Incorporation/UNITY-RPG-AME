@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class BattleManager : MonoBehaviour
 {
@@ -27,6 +28,11 @@ public class BattleManager : MonoBehaviour
     public GameObject uiButtonsHolder;
 
     public BattleMove[] movesList;
+    public GameObject enemyAttackEffect;
+
+    public DamageNumber theDamageNumber;
+
+    public TMP_Text[] playerName, playerHP, playerMP;
 
     // Start is called before the first frame update
     void Start()
@@ -40,7 +46,7 @@ public class BattleManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.B))
         {
-            BattleStart(new string[] { "Adyn", "Marko" });
+            BattleStart(new string[] { "Goblin", "Dzik w Fedorze", "Bandyta", "Pan Dynia", "Szkielet", "Zombii" });
         }
 
         if(battleActive)
@@ -79,7 +85,7 @@ public class BattleManager : MonoBehaviour
             transform.position = new Vector3(Camera.main.transform.position.x, Camera.main.transform.position.y, transform.position.z);
             battleScene.SetActive(true);
 
-            //AudioManager.instance.PlayBGM(0); //remove the comment when ready
+            AudioManager.instance.PlayBGM(6);
             for(int i = 0; i < playerPositions.Length; i++)
             {   
                 if(GameManager.instance.playerStats[0].gameObject.activeInHierarchy)
@@ -124,6 +130,8 @@ public class BattleManager : MonoBehaviour
 
             turnWaiting = true;
             currentTurn = Random.Range(0, activeBattlers.Count);
+
+            UpdateUIStats();
         }                   
     }
 
@@ -138,6 +146,7 @@ public class BattleManager : MonoBehaviour
         turnWaiting = true;
 
         UpdateBattle();
+        UpdateUIStats();
     }
 
     public void UpdateBattle()
@@ -206,14 +215,64 @@ public class BattleManager : MonoBehaviour
                 players.Add(i);
             }
         }
-        int selectedTarget = players[Random.Range(0, players.Count)];
+        int selectedTarget = players[0];
 
         int selectAttack = Random.Range(0, activeBattlers[currentTurn].movesAvailable.Length);
+        int movePower = 0;
         for(int i = 0; i < movesList.Length; i++)
         {
             if(movesList[i].moveName == activeBattlers[currentTurn].movesAvailable[selectAttack])
             {
                 Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+                movePower = movesList[i].movePower;
+            }
+        }
+
+        Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
+
+        DealDamage(selectedTarget, movePower);
+    }
+
+    public void DealDamage(int target, int movePower)
+    {
+        float atkPwr = activeBattlers[currentTurn].strength + activeBattlers[currentTurn].weaponPower;
+        float defPwr = activeBattlers[target].defence + activeBattlers[target].armorPower;
+
+        float damageCalc = (atkPwr / defPwr) * movePower * Random.Range(.9f, 1.1f);
+        int damageToGive = Mathf.RoundToInt(damageCalc);
+
+        Debug.Log(activeBattlers[currentTurn].charName + " is dealing " + damageCalc + "(" + damageToGive + ") damage to " + activeBattlers[target].charName);
+
+        activeBattlers[target].currentHP -= damageToGive;
+
+        Instantiate(theDamageNumber, activeBattlers[target].transform.position, activeBattlers[target].transform.rotation).SetDamage(damageToGive);
+
+        UpdateUIStats();
+    }
+
+    public void UpdateUIStats()
+    {
+        for(int i = 0; i < playerName.Length; i++)
+        {
+            if(activeBattlers.Count > i)
+            {
+                if(activeBattlers[i].isPlayer)
+                {
+                    BattleChar playerData = activeBattlers[i];
+
+                    playerName[i].gameObject.SetActive(true);
+                    playerName[i].text = playerData.charName;
+                    playerHP[i].text = Mathf.Clamp(playerData.currentHP, 0, int.MaxValue) + "/" + playerData.maxHP;
+                    playerMP[i].text = Mathf.Clamp(playerData.currentMP, 0, int.MaxValue) + "/" + playerData.maxMP;
+                }
+                else
+                {
+                    playerName[i].gameObject.SetActive(false);
+                }
+            }
+            else
+            {
+                playerName[i].gameObject.SetActive(false);
             }
         }
     }

@@ -2,20 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AttackEffect : MonoBehaviour
+public class DestroyOverLifetime : MonoBehaviour
 {
-    public float effectLenght;
-    public int soundEffect;
+    public float lifetime;
 
     // Start is called before the first frame update
     void Start()
     {
-        AudioManager.instance.PlaySFX(soundEffect);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        Destroy(gameObject, effectLenght);
+        Destroy(gameObject, lifetime);
     }
 }

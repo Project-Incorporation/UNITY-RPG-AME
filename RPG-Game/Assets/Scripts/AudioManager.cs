@@ -63,5 +63,9 @@ public class AudioManager : MonoBehaviour
         {
             PlayBGM(randomNumber);
         }
+        if (Input.GetKeyDown(KeyCode.Y))
+        {
+            StopMusic();
+        }
     }
 }

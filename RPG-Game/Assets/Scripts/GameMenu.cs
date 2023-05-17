@@ -241,6 +241,7 @@ public class GameMenu : MonoBehaviour
     {
         SceneManager.LoadScene(mainMenuName);
 
+
         Destroy(GameManager.instance.gameObject);
         Destroy(PlayerController.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);

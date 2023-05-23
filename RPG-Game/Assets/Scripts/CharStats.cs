@@ -17,14 +17,13 @@ public class CharStats : MonoBehaviour
     public int currentMP;
     public int maxMP = 30;
     public int[] mpLvlBonus;
-    public int strenght;
+    public int strength;
     public int defence;
     public int weaponPower;
     public int armorPower;
     public string equippedWeapon;
     public string equippedArmor;
     public Sprite charImage;
-
 
     void Start()
     {
@@ -59,7 +58,7 @@ public class CharStats : MonoBehaviour
 
                 if(playerLevel % 2 == 0)
                 {
-                    strenght++;
+                    strength++;
                 }
                 else
                 {

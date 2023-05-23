@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameMenu : MonoBehaviour
 {
@@ -33,6 +34,8 @@ public class GameMenu : MonoBehaviour
     public static GameMenu instance;
     public TMP_Text goldText;
 
+    public string mainMenuName;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -55,6 +58,7 @@ public class GameMenu : MonoBehaviour
                 UpdateMainStats();
                 GameManager.instance.gameMenuOpen = true;
             }
+            AudioManager.instance.PlaySFX(5);
         }
     }
     public void UpdateMainStats()
@@ -132,7 +136,7 @@ public class GameMenu : MonoBehaviour
         statusName.text = playerStats[selected].charName;
         statusHP.text = "" + playerStats[selected].currentHP + "/" + playerStats[selected].maxHP;
         statusMP.text = "" + playerStats[selected].currentMP + "/" + playerStats[selected].maxMP;
-        statusStr.text = playerStats[selected].strenght.ToString();
+        statusStr.text = playerStats[selected].strength.ToString();
         statusDef.text = playerStats[selected].defence.ToString();
         if (playerStats[selected].equippedWeapon != "")
         {
@@ -226,5 +230,21 @@ public class GameMenu : MonoBehaviour
     {
         GameManager.instance.SaveData();
         QuestManager.instance.SaveQuestData();
+    }
+
+    public void PlayButtonSound()
+    {
+        AudioManager.instance.PlaySFX(4);
+    }
+
+    public void QuitGame()
+    {
+        SceneManager.LoadScene(mainMenuName);
+
+
+        Destroy(GameManager.instance.gameObject);
+        Destroy(PlayerController.instance.gameObject);
+        Destroy(AudioManager.instance.gameObject);
+        Destroy(gameObject);
     }
 }

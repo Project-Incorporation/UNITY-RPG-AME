@@ -56,3 +56,9 @@ TagManager:
   - name: Background_Upper
     uniqueID: 3461816687
     locked: 0
+  - name: Battle BG
+    uniqueID: 928766305
+    locked: 0
+  - name: Battle Chars
+    uniqueID: 2369899787
+    locked: 0

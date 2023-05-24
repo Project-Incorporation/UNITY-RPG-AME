@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 168
+  controlID: 133
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 84
+  controlID: 55
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,8 +166,8 @@ MonoBehaviour:
     y: 0
     width: 262
     height: 767
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -190,7 +190,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 993
     y: 0
-    width: 284
+    width: 249
     height: 767
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -214,12 +214,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1277
+    x: 1242
     y: 0
-    width: 323
+    width: 358
     height: 767
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -310,20 +310,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5ab30000
+      m_SelectedIDs: 16750000
       m_LastClickedID: 0
-      m_ExpandedIDs: 125effffb473ffff0288ffffe488fffff488ffff3e8bffff408bfffffe8cffffacc4ffff9ee9ffff72eaffff3eecffff6ab5000030f7000066fb0000
+      m_ExpandedIDs: cc62fdffc864fdffc27cfdff1887fdffb487fdffb89dfdffcca0fdff1aa3fdff18a4fdff1aa5fdff12a8fdffeca9fdff16c2fdffcac7fdffd8e1fdffd80dfeff820efeffa425feff5628feffe63ffeff7040feffc057feff6e5bfeff0e72feff4073feff8689feff848afeff6ea0feff12a1feff24cbfeff50dafeff9cdafeffe4dafeff30dbfeff78dbfeff98defeff92f7feff3cf8feff7a0dffff8223ffff5839ffff546fffffc670ffff0073ffffbe74ffff927dffff0a7fffffe093ffff0ea8ffff8aaaffff5cbfffff5ac0ffff3ee0ffffb0e1fffff4f9ffff2cfbfffff4ffffff64e500006ee50000cce50000f8e500001ce6000062e6000084e60000b2e6000034f30000faf30000fafc00009cfe00002aff000066020100e00301006e04010098060100e80601003e1501002e16010046160100781601000c1e0100fc1e0100141f0100da27010056280100fc280100222901007a3701003c4201005e420100fe4201000e440100424d010094550100b655010056560100665701009a600100266c0100c86d0100d66d010016770100b677010098780100c67801005c84010050870100ca9c01006ea2010068a60100d4a70100e0b70100d4b80100e6ba01003abb01009cc80100feca010012cb0100a2cb010006cd0100facd0100b6cf01000cd00100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: RPG Nature Tileset_0 (1)
-        m_OriginalName: RPG Nature Tileset_0 (1)
+        m_Name: Spell Button
+        m_OriginalName: Spell Button
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -15380
+        m_UserData: 112390
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -357,9 +357,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1277
+    x: 1242
     y: 73
-    width: 322
+    width: 357
     height: 746
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -402,7 +402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 993
     y: 73
-    width: 282
+    width: 247
     height: 746
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -435,9 +435,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 44b30000
-    m_LastClickedID: 45892
-    m_ExpandedIDs: 000000005aa200005ca200005ea2000060a2000038b3000042b3000000ca9a3b
+    m_SelectedIDs: fc740000
+    m_LastClickedID: 29948
+    m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c740000f874000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -465,7 +465,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005aa200005ca200005ea2000060a20000
+    m_ExpandedIDs: 00000000727400007474000076740000787400007a7400007c740000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -897,9 +897,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.6533012, y: -1.8909159, z: 0.6399499}
+    m_Target: {x: 926.2043, y: 712.0317, z: -3.7573824}
     speed: 2
-    m_Value: {x: 5.6533012, y: -1.8909159, z: 0.6399499}
+    m_Value: {x: 926.2043, y: 712.0317, z: -3.7573824}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -950,9 +950,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.6880865
+    m_Target: 521.5875
     speed: 2
-    m_Value: 5.6880865
+    m_Value: 521.5875
   m_Ortho:
     m_Target: 1
     speed: 2

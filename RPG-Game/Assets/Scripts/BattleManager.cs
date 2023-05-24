@@ -34,6 +34,16 @@ public class BattleManager : MonoBehaviour
 
     public TMP_Text[] playerName, playerHP, playerMP;
 
+    public GameObject targetMenu;
+    public BattleTargetButton[] targetButtons;
+
+    public GameObject magicMenu;
+    public BattleMagicSelect[] magicButtons;
+
+    public BattleNotification battleNotice;
+
+    public int chanceToFlee = 65;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -193,6 +203,18 @@ public class BattleManager : MonoBehaviour
             GameManager.instance.battleActive = false;
             battleActive = false;
         }
+        // IMPORTANT uncomment when we implement party mechanic
+        /*else
+        {
+            while (activeBattlers[currentTurn].currentHP == 0)
+            {
+                currentTurn++;
+                if(currentTurn >= activeBattlers.Count)
+                {
+                    currentTurn = 0;
+                }
+            }
+        }*/
     }
 
     public IEnumerator EnemyMoveCo()
@@ -274,6 +296,106 @@ public class BattleManager : MonoBehaviour
             {
                 playerName[i].gameObject.SetActive(false);
             }
+        }
+    }
+
+    public void PlayerAttack(string moveName, int selectedTarget)
+    {
+
+        int movePower = 0;
+        for (int i = 0; i < movesList.Length; i++)
+        {
+            if (movesList[i].moveName == moveName)
+            {
+                Instantiate(movesList[i].theEffect, activeBattlers[selectedTarget].transform.position, activeBattlers[selectedTarget].transform.rotation);
+                movePower = movesList[i].movePower;
+            }
+        }
+
+        Instantiate(enemyAttackEffect, activeBattlers[currentTurn].transform.position, activeBattlers[currentTurn].transform.rotation);
+
+        DealDamage(selectedTarget, movePower);
+
+        uiButtonsHolder.SetActive(false);
+        targetMenu.SetActive(false);
+
+        NextTurn();
+    }
+
+    public void OpenTargetMenu(string moveName)
+    {
+        targetMenu.SetActive(true);
+
+        List<int> Enemies = new List<int>();
+        for(int i = 0; i < activeBattlers.Count; i++)
+        {
+            if (!activeBattlers[i].isPlayer)
+            {
+                Enemies.Add(i);
+            }
+        }
+
+        for(int i = 0; i < targetButtons.Length; i++)
+        {
+            if(Enemies.Count > i)
+            {
+                targetButtons[i].gameObject.SetActive(true);
+
+                targetButtons[i].moveName = moveName;
+                targetButtons[i].activeBattlerTarget = Enemies[i];
+                targetButtons[i].targetName.text = activeBattlers[Enemies[i]].charName;
+            }
+            else
+            {
+                targetButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void OpenMagiMenu()
+    {
+        magicMenu.SetActive(true);
+
+        for(int i = 0; i < magicButtons.Length; i++)
+        {
+            if (activeBattlers[currentTurn].movesAvailable.Length > i)
+            {
+                magicButtons[i].gameObject.SetActive(true);
+
+                magicButtons[i].spellName = activeBattlers[currentTurn].movesAvailable[i];
+                magicButtons[i].nameText.text = magicButtons[i].spellName;
+
+                for(int j = 0; j < movesList.Length; j++)
+                {
+                    if (movesList[j].moveName == magicButtons[i].spellName)
+                    {
+                        magicButtons[i].spellCost = movesList[j].moveCost;
+                        magicButtons[i].costText.text = magicButtons[i].spellCost.ToString();
+                    }
+                }
+            }
+            else
+            {
+                magicButtons[i].gameObject.SetActive(false);
+            }
+        }
+    }
+
+    public void Flee()
+    {
+        int fleeSuccess = Random.Range(0, 100);
+        if(fleeSuccess < chanceToFlee)
+        {
+            //end battle
+            battleScene.SetActive(false);
+            GameManager.instance.battleActive = false;
+            battleActive = false;
+        }
+        else
+        {
+            NextTurn();
+            battleNotice.theText.text = "Nie udalo sie uciec";
+            battleNotice.Activate();
         }
     }
 }

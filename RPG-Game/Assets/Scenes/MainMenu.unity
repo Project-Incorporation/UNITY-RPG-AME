@@ -1311,33 +1311,13 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1930424411}
   m_CullTransparentMesh: 1
---- !u!1001 &1940467180
+--- !u!1001 &2072038076
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 3737274503045362318, guid: 718668f21ee772042b0157d40363d564,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3737274503430689366, guid: 718668f21ee772042b0157d40363d564,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3737274503927726120, guid: 718668f21ee772042b0157d40363d564,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3737274504343114863, guid: 718668f21ee772042b0157d40363d564,
-        type: 3}
-      propertyPath: m_PlayOnAwake
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3737274504370122478, guid: 718668f21ee772042b0157d40363d564,
         type: 3}
       propertyPath: m_Name
@@ -1396,11 +1376,6 @@ PrefabInstance:
     - target: {fileID: 3737274504370122479, guid: 718668f21ee772042b0157d40363d564,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3737274504873915579, guid: 718668f21ee772042b0157d40363d564,
-        type: 3}
-      propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

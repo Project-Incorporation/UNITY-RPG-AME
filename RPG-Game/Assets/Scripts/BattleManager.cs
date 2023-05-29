@@ -51,6 +51,10 @@ public class BattleManager : MonoBehaviour
     public int rewardXP;
     public string[] rewardItems;
 
+    public GameObject itemMenu;
+    public Item activeItem;
+    public TMP_Text itemName, itemDescription, useButtonText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -398,6 +402,29 @@ public class BattleManager : MonoBehaviour
         }
     }
 
+    public void OpenItemMenu()
+    {
+        itemMenu.SetActive(true);
+        //GameManager.instance.SortItems();
+        //for(int i = 0; i < itemButtons.Length; i++)
+        //{
+        //    itemButtons[i].buttonValue = i;
+        //    if(GameManager.instance.itemsHeld[i] != "")
+        //    {
+        //        itemButtons[i].buttonImage.gameObject.SetActive(true);
+        //        itemButtons[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[i]).itemSprite;
+        //        itemButtons[i].amountText.text = GameManager.instance.numberOfItems[i].ToString();
+        //     }
+        //    else
+        //    {
+        //        itemButtons[i].buttonImage.gameObject.SetActive(false);
+        //        itemButtons[i].amountText.text = "";
+        //    }
+        //
+        //    itemButtons[i].buttonName.text = GameManager.instance.itemsHeld[i];
+        //}
+    }
+
     public void Flee()
     {
         int fleeSuccess = Random.Range(0, 100);
@@ -465,5 +492,23 @@ public class BattleManager : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         battleScene.SetActive(false);
         SceneManager.LoadScene(gameOverScene);
+    }
+
+    public void selectItem(Item newItem)
+    {
+        activeItem = newItem;
+
+        if (activeItem.isItem)
+        {
+            useButtonText.text = "Use";
+        }
+
+        if (activeItem.isWeapon || activeItem.isArmor)
+        {
+            useButtonText.text = "Equip";
+        }
+
+        itemName.text = activeItem.itemName;
+        itemDescription.text = activeItem.description;
     }
 }

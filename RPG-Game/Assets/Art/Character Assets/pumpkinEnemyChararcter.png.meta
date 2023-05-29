@@ -137,27 +137,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: pumpkinEnemyChararcter_0
-      rect:
-        serializedVersion: 2
-        x: 333
-        y: 0
-        width: 44
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae40f901ba73afe4aaf3378af57e4d86
-      internalID: -318416909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []

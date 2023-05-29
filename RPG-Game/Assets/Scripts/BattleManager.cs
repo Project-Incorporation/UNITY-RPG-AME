@@ -44,7 +44,12 @@ public class BattleManager : MonoBehaviour
 
     public int chanceToFlee = 65;
 
+    private bool fleeing;
+
     public string gameOverScene;
+
+    public int rewardXP;
+    public string[] rewardItems;
 
     // Start is called before the first frame update
     void Start()
@@ -216,8 +221,7 @@ public class BattleManager : MonoBehaviour
             GameManager.instance.battleActive = false;
             battleActive = false;*/
         }
-        // IMPORTANT uncomment when we implement party mechanic
-        /*else
+        else
         {
             while (activeBattlers[currentTurn].currentHP == 0)
             {
@@ -227,7 +231,7 @@ public class BattleManager : MonoBehaviour
                     currentTurn = 0;
                 }
             }
-        }*/
+        }
     }
 
     public IEnumerator EnemyMoveCo()
@@ -402,6 +406,7 @@ public class BattleManager : MonoBehaviour
             //end battle
             //battleActive = false;
             //battleScene.SetActive(false);
+            fleeing = true;
             StartCoroutine(EndBattleCo());
         }
         else
@@ -440,7 +445,16 @@ public class BattleManager : MonoBehaviour
         battleScene.SetActive(false);
         activeBattlers.Clear();
         currentTurn = 0;
-        GameManager.instance.battleActive = false;
+        //GameManager.instance.battleActive = false;
+        if(fleeing)
+        {
+            GameManager.instance.battleActive = false;
+            fleeing = false;
+        }
+        else
+        {
+            BattleReward.instance.OpenRewardScreen(rewardXP, rewardItems);
+        }
         AudioManager.instance.PlayBGM(FindObjectOfType<CameraController>().musicToPlay);
     }
 

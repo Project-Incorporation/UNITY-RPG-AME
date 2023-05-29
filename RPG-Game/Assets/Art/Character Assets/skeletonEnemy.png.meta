@@ -125,27 +125,6 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: skeletonEnemy_0
-      rect:
-        serializedVersion: 2
-        x: 337
-        y: 767
-        width: 40
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e76c43c2d5c107f4d8375c87930c6c19
-      internalID: 1692664435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []

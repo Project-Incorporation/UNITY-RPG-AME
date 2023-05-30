@@ -157,7 +157,7 @@ MonoBehaviour:
   potentialBattles:
   - enemies:
     - Some Dragon
-    rewardXP: 55555
+    rewardXP: 524
     rewardItems:
     - Iron Sword
     - Mana Potion

@@ -52,6 +52,8 @@ public class BattleManager : MonoBehaviour
     public string[] rewardItems;
 
     public GameObject itemMenu;
+    //public BattleItemButton[] itemButtons;
+
     public Item activeItem;
     public TMP_Text itemName, itemDescription, useButtonText;
 
@@ -405,24 +407,24 @@ public class BattleManager : MonoBehaviour
     public void OpenItemMenu()
     {
         itemMenu.SetActive(true);
-        //GameManager.instance.SortItems();
-        //for(int i = 0; i < itemButtons.Length; i++)
-        //{
-        //    itemButtons[i].buttonValue = i;
-        //    if(GameManager.instance.itemsHeld[i] != "")
-        //    {
-        //        itemButtons[i].buttonImage.gameObject.SetActive(true);
-        //        itemButtons[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[i]).itemSprite;
-        //        itemButtons[i].amountText.text = GameManager.instance.numberOfItems[i].ToString();
-        //     }
-        //    else
-        //    {
-        //        itemButtons[i].buttonImage.gameObject.SetActive(false);
-        //        itemButtons[i].amountText.text = "";
-        //    }
-        //
-        //    itemButtons[i].buttonName.text = GameManager.instance.itemsHeld[i];
-        //}
+/*        GameManager.instance.SortItems();
+        for(int i = 0; i < itemButtons.Length; i++)
+        {
+            itemButtons[i].buttonValue = i;
+            if(GameManager.instance.itemsHeld[i] != "")
+            {
+                itemButtons[i].buttonImage.gameObject.SetActive(true);
+                itemButtons[i].buttonImage.sprite = GameManager.instance.GetItemDetails(GameManager.instance.itemsHeld[i]).itemSprite;
+                itemButtons[i].amountText.text = GameManager.instance.numberOfItems[i].ToString();
+             }
+            else
+            {
+                itemButtons[i].buttonImage.gameObject.SetActive(false);
+                itemButtons[i].amountText.text = "";
+            }
+        
+            itemButtons[i].buttonName.text = GameManager.instance.itemsHeld[i];
+        }*/
     }
 
     public void Flee()

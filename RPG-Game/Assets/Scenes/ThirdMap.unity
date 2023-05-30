@@ -33166,6 +33166,10 @@ MonoBehaviour:
   activateOnExit: 0
   timeBetweenBattles: 10
   deactivateAfterStarting: 0
+  shouldCompleteQuest: 0
+  QuestToComplete: 
+  markQuestComplete: 0
+  questToMark: 
 --- !u!61 &1231787030
 BoxCollider2D:
   m_ObjectHideFlags: 0

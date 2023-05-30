@@ -124,7 +124,8 @@ MonoBehaviour:
   - quest test
   - zdac transmisje
   - zabic tego smoka hej
-  questMarkersComplete: 000000
+  - Odblokowac jame hej
+  questMarkersComplete: 00000000
 --- !u!1 &5166756183791280772
 GameObject:
   m_ObjectHideFlags: 0

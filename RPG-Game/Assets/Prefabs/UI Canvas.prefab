@@ -59254,6 +59254,8 @@ MonoBehaviour:
   itemText: {fileID: 651586345}
   rewardItems: []
   xpEarned: 0
+  markQuestComplete: 0
+  questToMark: 
 --- !u!1 &20548378862040631
 GameObject:
   m_ObjectHideFlags: 0
@@ -60291,7 +60293,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1773480345920914277}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1972210772}
+        m_TargetAssemblyTypeName: GameMenu, Assembly-CSharp
+        m_MethodName: CloseMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1862307118038633915
 GameObject:
   m_ObjectHideFlags: 0

@@ -45,20 +45,24 @@ public class GameMenu : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.M))
+        if(!BattleManager.instance.battleActive)
         {
-            if(theMenu.activeInHierarchy) 
-            {
-                theMenu.SetActive(false);
-                GameManager.instance.gameMenuOpen = false;
-            }
-            else
-            {
-                theMenu.SetActive(true);
-                UpdateMainStats();
-                GameManager.instance.gameMenuOpen = true;
-            }
-            AudioManager.instance.PlaySFX(5);
+                if (Input.GetKeyDown(KeyCode.M))
+                {
+                    if(theMenu.activeInHierarchy || BattleManager.instance.battleActive) 
+                    {
+                        theMenu.SetActive(false);
+                        GameManager.instance.gameMenuOpen = false;
+                    }
+                    else
+                    {
+                        theMenu.SetActive(true);
+                        UpdateMainStats();
+                        GameManager.instance.gameMenuOpen = true;
+                    }
+                    AudioManager.instance.PlaySFX(5);
+                }
+            
         }
     }
     public void UpdateMainStats()

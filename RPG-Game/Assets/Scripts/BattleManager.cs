@@ -10,7 +10,7 @@ public class BattleManager : MonoBehaviour
 
     public static BattleManager instance;
 
-    private bool battleActive;
+    public bool battleActive;
 
     public GameObject battleScene;
 

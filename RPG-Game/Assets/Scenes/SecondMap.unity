@@ -272,7 +272,7 @@ Transform:
   m_GameObject: {fileID: 74853603}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 34.0465, y: -3.7267954, z: -9.480515}
-  m_LocalScale: {x: 0.5346289, y: 0.13578895, z: 0.95580995}
+  m_LocalScale: {x: 0.5346289, y: 0.16803882, z: 0.95580995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1618352401}
@@ -350,7 +350,7 @@ TilemapRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 974231345
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 2.375, y: 4.546875, z: 0}
@@ -8353,7 +8353,7 @@ Transform:
   m_GameObject: {fileID: 1438624190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 42.5465, y: -2.6867955, z: -9.480515}
-  m_LocalScale: {x: 0.915552, y: 0.13578895, z: 0.95580995}
+  m_LocalScale: {x: 0.915552, y: 0.18331508, z: 0.95580995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1618352401}
@@ -9059,8 +9059,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1735611109}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 26.626501, y: 8.003204, z: -9.480515}
-  m_LocalScale: {x: 2.9122438, y: 1.0469276, z: 0.95580995}
+  m_LocalPosition: {x: 26.87, y: 8.003204, z: -9.480515}
+  m_LocalScale: {x: 3.4045951, y: 1.0469276, z: 0.95580995}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1618352401}

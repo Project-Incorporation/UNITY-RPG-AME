@@ -47,7 +47,7 @@ public class GameMenu : MonoBehaviour
     {
         if(!BattleManager.instance.battleActive)
         {
-                if (Input.GetKeyDown(KeyCode.M))
+                if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Escape))
                 {
                     if(theMenu.activeInHierarchy || BattleManager.instance.battleActive) 
                     {

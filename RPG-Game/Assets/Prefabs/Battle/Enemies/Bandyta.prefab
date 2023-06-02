@@ -101,14 +101,14 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   charName: Bandyta
-  currentHP: 50
-  maxHP: 50
+  currentHP: 40
+  maxHP: 40
   currentMP: 0
   maxMP: 0
-  strength: 5
-  defence: 5
-  weaponPower: 5
-  armorPower: 5
+  strength: 10
+  defence: 10
+  weaponPower: 10
+  armorPower: 10
   hasDied: 0
   theSprite: {fileID: 3215601767979858777}
   deadSprite: {fileID: 0}

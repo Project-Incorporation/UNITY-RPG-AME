@@ -6606,6 +6606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4200fa0fc43ffd94e9abebbeb48d3fa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  battleActive: 0
   battleScene: {fileID: 4362556509607975642}
   playerPositions:
   - {fileID: 4362556509145493214}
@@ -6631,18 +6632,18 @@ MonoBehaviour:
   uiButtonsHolder: {fileID: 4362556509352098798}
   movesList:
   - moveName: Slash
-    movePower: 10
+    movePower: 15
     moveCost: 0
     theEffect: {fileID: 6234763931048404594, guid: 6c4fdf0080b3ece40acce52dba230b87,
       type: 3}
   - moveName: Fire
-    movePower: 20
-    moveCost: 5
+    movePower: 40
+    moveCost: 10
     theEffect: {fileID: 1021929956843960657, guid: dd30664acc258004cb73c26c0486efd5,
       type: 3}
   - moveName: Ice
-    movePower: 20
-    moveCost: 5
+    movePower: 60
+    moveCost: 15
     theEffect: {fileID: 4854568200363605731, guid: 7b1f1bd1707cb3c4cbe80f59e586493a,
       type: 3}
   enemyAttackEffect: {fileID: 7548695552567523876, guid: 0300f0f62584d4b4dad871302f2b82ee,

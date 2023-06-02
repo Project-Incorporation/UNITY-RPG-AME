@@ -101,13 +101,13 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   charName: Goblin
-  currentHP: 50
-  maxHP: 50
+  currentHP: 100
+  maxHP: 100
   currentMP: 0
   maxMP: 0
-  strength: 5
+  strength: 10
   defence: 5
-  weaponPower: 5
+  weaponPower: 10
   armorPower: 5
   hasDied: 0
   theSprite: {fileID: 8919988417496872414}

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8008104832779091164}
   - component: {fileID: 3127100743684144778}
   m_Layer: 0
-  m_Name: Some Dragon
+  m_Name: Elektro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -100,17 +100,17 @@ MonoBehaviour:
   isPlayer: 0
   movesAvailable:
   - Slash
-  - Ice
-  - Plasma
-  charName: Some Dragon
-  currentHP: 5
-  maxHP: 5
+  - Fire
+  - Slash
+  charName: Elektro
+  currentHP: 1000
+  maxHP: 1000
   currentMP: 0
   maxMP: 0
-  strength: 8
-  defence: 8
-  weaponPower: 8
-  armorPower: 8
+  strength: 30
+  defence: 20
+  weaponPower: 20
+  armorPower: 10
   hasDied: 0
   theSprite: {fileID: 8008104832779091164}
   deadSprite: {fileID: 0}

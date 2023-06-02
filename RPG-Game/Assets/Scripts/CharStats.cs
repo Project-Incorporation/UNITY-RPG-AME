@@ -44,7 +44,12 @@ public class CharStats : MonoBehaviour
         {
             AddEXP(500);
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown(KeyCode.Escape))
+        {
+            AddEXP(0);
+        }
+
     }
     public void AddEXP(int expToAdd)
     {
@@ -58,7 +63,7 @@ public class CharStats : MonoBehaviour
 
                 if(playerLevel % 2 == 0)
                 {
-                    strength++;
+                    strength = strength + 2;
                 }
                 else
                 {

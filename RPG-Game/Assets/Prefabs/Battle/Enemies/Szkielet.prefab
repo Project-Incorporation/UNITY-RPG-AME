@@ -101,14 +101,14 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   charName: Szkielet
-  currentHP: 50
-  maxHP: 50
+  currentHP: 125
+  maxHP: 125
   currentMP: 0
   maxMP: 0
   strength: 5
   defence: 5
-  weaponPower: 5
-  armorPower: 5
+  weaponPower: 15
+  armorPower: 10
   hasDied: 0
   theSprite: {fileID: 633306595462873969}
   deadSprite: {fileID: 0}

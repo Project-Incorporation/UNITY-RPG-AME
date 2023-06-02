@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: -5
   m_Sprite: {fileID: 21300074, guid: 0bc4ed27aef38a44bb72e80f9beb5326, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -108,5 +108,5 @@ MonoBehaviour:
   affectHP: 0
   affectMP: 0
   affectStr: 1
-  weaponStrength: 5
+  weaponStrength: 15
   armorStrength: 0

@@ -101,15 +101,16 @@ MonoBehaviour:
   movesAvailable:
   - Slash
   - Ice
+  - Fire
   charName: Dzik w Fedorze
-  currentHP: 50
-  maxHP: 50
-  currentMP: 0
-  maxMP: 0
-  strength: 5
-  defence: 5
-  weaponPower: 5
-  armorPower: 5
+  currentHP: 250
+  maxHP: 250
+  currentMP: 100
+  maxMP: 100
+  strength: 10
+  defence: 10
+  weaponPower: 15
+  armorPower: 15
   hasDied: 0
   theSprite: {fileID: 6685619862124375863}
   deadSprite: {fileID: 0}

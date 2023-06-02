@@ -156,11 +156,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   potentialBattles:
   - enemies:
-    - Some Dragon
-    rewardXP: 524
+    - Elektro
+    rewardXP: 5250
     rewardItems:
     - Iron Sword
     - Mana Potion
+    - Health Potion
+    - Health Potion
+    - Health Potion
   activateOnEnter: 1
   activateOnStay: 0
   activateOnExit: 0
@@ -235,7 +238,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -105541197
-  m_SortingLayer: 4
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 166811930, guid: caef853f2f9dd1a46a6ba73ca4a94a7a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

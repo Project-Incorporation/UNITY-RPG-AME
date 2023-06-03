@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+
+
     public Rigidbody2D theRB;
     public float moveSpeed;
 
@@ -38,19 +40,34 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(canMove)
+        if (canMove)
         {
-            theRB.velocity = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")) * moveSpeed;
+            Vector2 moveInput = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
+            moveInput = moveInput.normalized;
+
+            theRB.velocity = moveInput * moveSpeed;
+
+            myAnim.SetFloat("MoveX", moveInput.x);
+            myAnim.SetFloat("MoveY", moveInput.y);
         }
         else
         {
             theRB.velocity = Vector2.zero;
         }
-        
-        myAnim.SetFloat("MoveX",theRB.velocity.x);
-        myAnim.SetFloat("MoveY",theRB.velocity.y);
 
-        if(Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
+        {
+            if (canMove)
+            {
+                myAnim.SetFloat("LastMoveX", Input.GetAxisRaw("Horizontal"));
+                myAnim.SetFloat("LastMoveY", Input.GetAxisRaw("Vertical"));
+            }
+        }
+
+        /*        myAnim.SetFloat("MoveX",theRB.velocity.x);
+                myAnim.SetFloat("MoveY",theRB.velocity.y);*/
+
+        if (Input.GetAxisRaw("Horizontal") == 1 || Input.GetAxisRaw("Horizontal") == -1 || Input.GetAxisRaw("Vertical") == 1 || Input.GetAxisRaw("Vertical") == -1)
         {
             if(canMove)
             {

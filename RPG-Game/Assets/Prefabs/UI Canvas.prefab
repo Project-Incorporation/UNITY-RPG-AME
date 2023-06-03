@@ -59237,6 +59237,7 @@ MonoBehaviour:
   sellItemName: {fileID: 1570904828}
   sellItemDescription: {fileID: 984552188}
   sellItemValue: {fileID: 1623590122}
+  sellButton: {fileID: 2017715506}
 --- !u!114 &536981826
 MonoBehaviour:
   m_ObjectHideFlags: 0

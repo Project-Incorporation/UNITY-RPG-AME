@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class Shop : MonoBehaviour {
 
@@ -22,6 +23,8 @@ public class Shop : MonoBehaviour {
     public Item selectedItem;
     public TMP_Text buyItemName, buyItemDescription, buyItemValue;
     public TMP_Text sellItemName, sellItemDescription, sellItemValue;
+
+    public Button sellButton;
 
 	// Use this for initialization
 	void Start () {
@@ -119,10 +122,25 @@ public class Shop : MonoBehaviour {
 
     public void SelectSellItem(Item sellItem)
     {
-        selectedItem = sellItem;
-        sellItemName.text = selectedItem.itemName;
-        sellItemDescription.text = selectedItem.description;
-        sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+        if (sellItem != null) // Check if the sellItem is not null
+        {
+            selectedItem = sellItem;
+            sellItemName.text = selectedItem.itemName;
+            sellItemDescription.text = selectedItem.description;
+            sellItemValue.text = "Value: " + Mathf.FloorToInt(selectedItem.value * .5f).ToString() + "g";
+
+            sellButton.interactable = true; // Enable the sell button
+        }
+        else
+        {
+            // Handle the case where there are no items left to sell
+            selectedItem = null;
+            sellItemName.text = "No Item";
+            sellItemDescription.text = "";
+            sellItemValue.text = "";
+            
+            sellButton.interactable = false; // Disable the sell button
+        }
     }
 
     public void BuyItem()
@@ -142,7 +160,7 @@ public class Shop : MonoBehaviour {
 
     public void SellItem()
     {
-        if(selectedItem != null)
+        if (selectedItem != null && Array.Exists(GameManager.instance.itemsHeld, item => item == selectedItem.itemName))
         {
             GameManager.instance.currentGold += Mathf.FloorToInt(selectedItem.value * .5f);
 

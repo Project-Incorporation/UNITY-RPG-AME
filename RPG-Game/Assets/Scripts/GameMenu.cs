@@ -249,6 +249,7 @@ public class GameMenu : MonoBehaviour
         Destroy(GameManager.instance.gameObject);
         Destroy(PlayerController.instance.gameObject);
         Destroy(AudioManager.instance.gameObject);
+        Destroy(BattleManager.instance.gameObject);
         Destroy(gameObject);
     }
 }

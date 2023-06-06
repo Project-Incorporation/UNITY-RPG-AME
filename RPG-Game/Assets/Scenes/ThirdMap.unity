@@ -32716,6 +32716,127 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &485964969
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 485964972}
+  - component: {fileID: 485964971}
+  - component: {fileID: 485964970}
+  m_Layer: 0
+  m_Name: Battle Zone Easy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &485964970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485964969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 862cc1094b8ba2346b14ac671f8f00f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  potentialBattles:
+  - enemies:
+    - Goblin
+    - Goblin
+    rewardXP: 600
+    rewardItems:
+    - Wooden Sword
+    - Health Potion
+  - enemies:
+    - Szkielet
+    rewardXP: 500
+    rewardItems:
+    - Health Potion
+  - enemies:
+    - Zombii
+    - Zombii
+    rewardXP: 300
+    rewardItems:
+    - Health Potion
+  - enemies:
+    - Bandyta
+    rewardXP: 250
+    rewardItems:
+    - Wooden Sword
+  - enemies:
+    - Goblin
+    rewardXP: 300
+    rewardItems:
+    - Health Potion
+  - enemies:
+    - Zombii
+    - Zombii
+    - Zombii
+    - Zombii
+    - Zombii
+    - Zombii
+    rewardXP: 750
+    rewardItems:
+    - Health Potion
+    - Health Potion
+    - Health Potion
+  activateOnEnter: 0
+  activateOnStay: 1
+  activateOnExit: 0
+  timeBetweenBattles: 10
+  deactivateAfterStarting: 0
+  shouldCompleteQuest: 0
+  QuestToComplete: 
+  markQuestComplete: 0
+  questToMark: 
+--- !u!61 &485964971
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485964969}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.3214171}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.28503647}
+  m_EdgeRadius: 0
+--- !u!4 &485964972
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 485964969}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.1, y: -8.4, z: 0}
+  m_LocalScale: {x: 28.728106, y: 80.26552, z: 1.4238964}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &584325293
 GameObject:
   m_ObjectHideFlags: 0
@@ -33264,7 +33385,7 @@ Transform:
   m_Children:
   - {fileID: 1760361318}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &757328155
 GameObject:
@@ -34608,7 +34729,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.10368569}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -34619,7 +34740,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 0.7204993}
   m_EdgeRadius: 0
 --- !u!4 &1231787031
 Transform:
@@ -36113,7 +36234,7 @@ Transform:
   m_Children:
   - {fileID: 1390819042}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1582233209
 GameObject:
